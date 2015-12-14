@@ -48,11 +48,17 @@ set OS_REGION_NAME=region-a.geo-1</codeblock></li>
                     </menucascade> and add the variables to your <uicontrol>System
                       variables.</uicontrol></li>
                 </ul></note></li>
-            <li>Decompress the <keyword keyref="prodShort"/> file into a convenient directory.</li>
-            <li>Navigate to the <keyword keyref="prodShort"/> directory and make a copy of the
-                <codeph>overrides.tfvars.sample</codeph> file, for example
-                <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file contains the
-                keys and credentials for your cluster.</note></li>
+            <li>Decompress the <keyword keyref="prodShort"/> archive into a convenient
+              directory.</li>
+            <li>Navigate to the directory.<ul id="ul_pfk_2ml_35">
+                <li>If you do not connect through a proxy, use the files in
+                    <codeph>/direct_internet</codeph></li>
+                <li>If you connect through a proxy, use the files in
+                    <codeph>/proxied_internet</codeph></li>
+              </ul></li>
+            <li>Make a copy of the <codeph>overrides.tfvars.sample</codeph> file, for example
+                <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file will contain
+                the keys and credentials for your cluster.</note></li>
             <li>Add variables to your <codeph>tfvars</codeph> file. For more information and
               examples, see <xref
                 href="../../reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc_rt">Terraform
@@ -90,9 +96,7 @@ set OS_REGION_NAME=region-a.geo-1</codeblock></li>
                 <uicontrol>Computer</uicontrol>
                 <uicontrol>Access and Security</uicontrol>
               </menucascade>.</li>
-          </ul><p>Ensure that the required security group is available, for example
-              <uicontrol>hcf-container-host</uicontrol>.</p><xref
-            href="hcf-on-hpc-step-5.dita#concept_cw2_thz_st">
+          </ul><xref href="hcf-on-hpc-step-5.dita#concept_cw2_thz_st">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref></stentry>
    </strow>
