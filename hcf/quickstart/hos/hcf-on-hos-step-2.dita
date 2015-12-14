@@ -34,15 +34,17 @@
                 format="html" scope="external">Download <keyword keyref="prodShort"/>
                 <keyword keyref="prodVerLong"/></xref>
             </li>
-          </ul><b>OpenStack CLIs</b><p>Ensure that the <codeph>nova</codeph> and
-              <codeph>neutron</codeph> CLIs are installed. For more information, see the <xref
+          </ul><b>Terraform CLI</b><p>The <xref href="https://terraform.io/downloads.html"
+              format="html" scope="external">Terraform CLI</xref> allows you to construct, manage,
+            update, or delete <keyword keyref="prodShort"/> clusters.</p><b>Cloud Foundry
+            CLI</b><p>The <xref href="https://github.com/cloudfoundry/cli#downloads" format="html"
+              scope="external">Cloud Foundry CLI</xref> allows you to deploy and manage your
+            applications.</p><b>(Optional) OpenStack CLIs</b><p>You can troubleshoot your tenant's
+            networking using the <codeph>neutron</codeph> CLI and your key pairs and base images
+            using the <codeph>nova</codeph> CLIs . For more information on installing these tools,
+            see the <xref
               href="http://docs.openstack.org/user-guide/common/cli_install_openstack_command_line_clients.html"
-              format="html" scope="external">OpenStack documentation</xref>.</p><b>Terraform
-            CLI</b><p>The <xref href="https://terraform.io/downloads.html" format="html"
-              scope="external">Terraform CLI</xref> allows you to construct, manage, update, or
-            delete <keyword keyref="prodShort"/> clusters.</p><b>Cloud Foundry CLI</b><p>The <xref
-              href="https://github.com/cloudfoundry/cli#downloads" format="html" scope="external"
-              >Cloud Foundry CLI</xref> allows you to deploy and manage your applications.</p><xref
+              format="html" scope="external">OpenStack documentation</xref>.</p><xref
             href="hcf-on-hos-step-3.dita#concept_kpg_fhz_st">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref></stentry>
