@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_m3k_bth">
  <title>Quick Start Step 6: <keyword keyref="quickStartHPcloudStep6"/></title>
- <shortdesc>You can easily take down your <keyword keyref="prodLong"/> instances and security groups
-    on <keyword keyref="pubCloudLong"/>.</shortdesc>
+ <shortdesc>You can easily take down your <keyword keyref="prodLong"/> nodes and security groups on
+      <keyword keyref="pubCloudLong"/>.</shortdesc>
  <prolog>
   <metadata>
    <othermeta name="author" content="Michael Khmelnitsky"/>
@@ -25,7 +25,7 @@
             key, for
             example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock></p><note
             type="note">For more information, see the <xref
-              href="../../reference/hcf-reference-gato.dita"/>.</note><b>To Terminate Instances and
+              href="../../reference/hcf-reference-gato.dita"/>.</note><b>To Terminate Nodes and
             Security Groups from <keyword keyref="pubCloudShort"/></b><p>Using <keyword
               keyref="pubCloudShort"/> to terminate instances or security groups is not recommended.
             Use the following steps only if you run into difficulties with Terraform.</p><ol
@@ -37,15 +37,14 @@
                 <uicontrol>Compute</uicontrol>
                 <uicontrol>Instances</uicontrol>
               </menucascade>.</li>
-            <li>Click the checkbox next to your instance, for example
-                <uicontrol>hcf-core</uicontrol>.</li>
+            <li>Click the checkbox next to a node, for example <uicontrol>hcf-core</uicontrol>.</li>
             <li>Click <uicontrol>Terminate Instances</uicontrol>.</li>
             <li>Click <menucascade>
                 <uicontrol>Project</uicontrol>
                 <uicontrol>Compute</uicontrol>
                 <uicontrol>Access and Security</uicontrol>
               </menucascade>.</li>
-            <li>Click the checkbox next to your security group, for example
+            <li>Click the checkbox next to a security group, for example
                 <uicontrol>hcf-container-host</uicontrol>.</li>
             <li>Click <uicontrol>Delete Security Groups</uicontrol>.</li>
           </ol></stentry>

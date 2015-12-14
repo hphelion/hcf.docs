@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_m3k_bth_tt">
  <title>Quick Start Step 6: <keyword keyref="quickStartHOSstep6"/></title>
- <shortdesc>You can easily take down your <keyword keyref="prodLong"/> instances and security groups
-  on <keyword keyref="opnStckLong"/>.</shortdesc>
+ <shortdesc>You can easily take down your <keyword keyref="prodLong"/> nodes and security groups on
+            <keyword keyref="opnStckLong"/>.</shortdesc>
  <prolog>
   <metadata>
    <othermeta name="author" content="Michael Khmelnitsky"/>
@@ -19,36 +19,37 @@
         conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep5_"/></p>6. <b><keyword
        keyref="quickStartHOSstep6"/></b></stentry>
     <stentry><b id="connecting_to_your_cluster">Connecting to Your Cluster</b><p>To administer and
-            troubleshoot your cluster, you can connect to it using <codeph>ssh</codeph> and then run
-                <codeph><keyword keyref="adminUtilCLI"/></codeph> commands. To connect, specify the
-            IP address of your <keyword keyref="prodShort"/> core and the location of your RSA
-            private key, for
-            example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock></p><p>For
-            more information, see <xref
-              href="../../reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/>.</p><b>To
-            Terminate Instances and Security Groups from <keyword keyref="opnStckShort"
-            /></b><p>Using <keyword keyref="opnStckShort"/> to terminate instances or security
-            groups is not recommended. Use the following steps only if you run into difficulties
-            with Terraform.</p><ol id="ol_zqt_ld3_tt">
-            <li>Log into <xref href="https://horizon.hpcloud.com/" format="html" scope="external"
-                  ><keyword keyref="opnStckShort"/></xref>.</li>
-            <li>Click <menucascade>
-                <uicontrol>Project</uicontrol>
-                <uicontrol>Compute</uicontrol>
-                <uicontrol>Instances</uicontrol>
-              </menucascade>.</li>
-            <li>Click the checkbox next to your instance, for example
-                <uicontrol>hcf-core</uicontrol>.</li>
-            <li>Click <uicontrol>Terminate Instances</uicontrol>.</li>
-            <li>Click <menucascade>
-                <uicontrol>Project</uicontrol>
-                <uicontrol>Compute</uicontrol>
-                <uicontrol>Access and Security</uicontrol>
-              </menucascade>.</li>
-            <li>Click the checkbox next to your security group, for example
-                <uicontrol>hcf-container-host</uicontrol>.</li>
-            <li>Click <uicontrol>Delete Security Groups</uicontrol>.</li>
-          </ol></stentry>
+                        troubleshoot your cluster, you can connect to it using <codeph>ssh</codeph>
+                        and then run <codeph><keyword keyref="adminUtilCLI"/></codeph> commands. To
+                        connect, specify the IP address of your <keyword keyref="prodShort"/> core
+                        and the location of your RSA private key, for
+                        example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock></p><p>For
+                        more information, see <xref
+                            href="../../reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"
+                        />.</p><b>To Terminate Nodes and Security Groups from <keyword
+                            keyref="opnStckShort"/></b><p>Using <keyword keyref="opnStckShort"/> to
+                        terminate nodes or security groups is not recommended. Use the following
+                        steps only if you run into difficulties with Terraform.</p><ol
+                        id="ol_zqt_ld3_tt">
+                        <li>Log into <xref href="https://horizon.hpcloud.com/" format="html"
+                                scope="external"><keyword keyref="opnStckShort"/></xref>.</li>
+                        <li>Click <menucascade>
+                                <uicontrol>Project</uicontrol>
+                                <uicontrol>Compute</uicontrol>
+                                <uicontrol>Instances</uicontrol>
+                            </menucascade>.</li>
+                        <li>Click the checkbox next to a node, for example
+                                <uicontrol>hcf-core</uicontrol>.</li>
+                        <li>Click <uicontrol>Terminate Instances</uicontrol>.</li>
+                        <li>Click <menucascade>
+                                <uicontrol>Project</uicontrol>
+                                <uicontrol>Compute</uicontrol>
+                                <uicontrol>Access and Security</uicontrol>
+                            </menucascade>.</li>
+                        <li>Click the checkbox next to a security group, for example
+                                <uicontrol>hcf-container-host</uicontrol>.</li>
+                        <li>Click <uicontrol>Delete Security Groups</uicontrol>.</li>
+                    </ol></stentry>
    </strow>
   </simpletable>
  </conbody>

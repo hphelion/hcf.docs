@@ -63,24 +63,22 @@
                 flag to your command. For more information, see the Terraform documentation on <xref
                   href="https://terraform.io/docs/commands/apply.html" format="html"
                   scope="external">Command: Apply</xref>.</note></li>
-          </ol><p>Terraform creates the necessary security groups and instances, installs Docker,
-            installs the Docker images required to run <keyword keyref="prodShort"/>, and saves the
-            state of your infrastructure to <codeph>terraform.tfstate</codeph>.</p><note type="tip"
-            >At the end of the process, Terraform displays the URL of the <keyword
-              keyref="prodShort"/> core, formatted using the xip.io wildcard DNS, for
+          </ol>Terraform creates the necessary nodes and security groups and saves the state of your
+          infrastructure to <codeph>terraform.tfstate</codeph>.<note type="tip">At the end of the
+            process, Terraform displays the URL of the <keyword keyref="prodShort"/> core, formatted
+            using the xip.io wildcard DNS, for
             example:<codeblock>api_endpoint = http://api.203.0.113.0.xip.io</codeblock>You will need
             this URL to use the Cloud Foundry CLI. You can also run the <codeph>terraform
               show</codeph> command to see detailed information about the core.</note><b>Exploring
-            the <keyword keyref="prodShort"/> Public-Facing Node</b><p>After the <keyword
-              keyref="prodShort"/> Docker image is deployed as an instance on <keyword
-              keyref="opnStckShort"/>, you can view the instance and its security groups:</p><ul
-            id="ul_rqs_v43_tt">
-            <li>To view the instance, click <menucascade>
+            the <keyword keyref="prodShort"/> Public-Facing Node</b><p>After <keyword
+              keyref="prodShort"/> is deployed on <keyword keyref="opnStckShort"/>, you can view its
+            nodes and security groups:</p><ul id="ul_rqs_v43_tt">
+            <li>To view the nodes, click <menucascade>
                 <uicontrol>Project</uicontrol>
                 <uicontrol>Compute</uicontrol>
                 <uicontrol>Instances</uicontrol>
               </menucascade>.</li>
-            <li>To view the security group, click <menucascade>
+            <li>To view the security groups, click <menucascade>
                 <uicontrol>Project</uicontrol>
                 <uicontrol>Computer</uicontrol>
                 <uicontrol>Access and Security</uicontrol>
