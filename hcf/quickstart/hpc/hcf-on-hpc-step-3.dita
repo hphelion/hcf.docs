@@ -97,7 +97,7 @@
                   <uicontrol>Computer</uicontrol>
                   <uicontrol>Instances</uicontrol>
                 </menucascade> pane, try the other region.</note></li>
-            <li>Ensure that you have at least 16GB of RAM.<p>To view your current limits, click <menucascade>
+            <li>Ensure that you have at least 12GB of RAM.<p>To view your current limits, click <menucascade>
                   <uicontrol>Project</uicontrol>
                   <uicontrol>Compute</uicontrol>
                   <uicontrol>Overview</uicontrol>

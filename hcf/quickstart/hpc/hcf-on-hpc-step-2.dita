@@ -20,27 +20,15 @@
               conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep4_"/></p><p>5. <xref
               conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep5_"/></p>6. <xref
             conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep6_"/></stentry>
-    <stentry><note type="important">Ensure that all tools are added to your <codeph>PATH</codeph>
-            environment variable. To set the variable on Linux and Mac OS X, <xref
-              href="http://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux"
-              format="html" scope="external">see this page</xref>. To set it on Windows, <xref
-              href="http://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows"
-              format="html" scope="external">see this page</xref>.</note><b><keyword
-              keyref="prodLong"/></b><p>You can use <keyword keyref="prodShort"/> to push
-            application code to the server, to start and stop applications, and to perform other
-            application management operations. <keyword keyref="prodShort"/> can be deployed on
-            Linux, Mac OS X, and Windows.</p><ul id="ul_cfn_rm1_tt">
-            <li><xref
-                href="https://helion.hpwsportal.com/catalog.html#/Category/%7B%22categoryId%22%3A10604%7D/Show"
-                format="html" scope="external">Download <keyword keyref="prodShort"/>
-                <keyword keyref="prodVerLong"/></xref>
-            </li>
-          </ul><b>Terraform CLI</b><p>The <xref href="https://terraform.io/downloads.html"
-              format="html" scope="external">Terraform CLI</xref> allows you to construct, manage,
-            update, or delete <keyword keyref="prodShort"/> clusters.</p><b>The Cloud Foundry
-            CLI</b><p>The <xref href="https://github.com/cloudfoundry/cli#downloads" format="html"
-              scope="external">Cloud Foundry CLI</xref> allows you to deploy and manage your
-            applications.</p><xref href="hcf-on-hpc-step-3.dita#concept_kpg_fhz_st">
+    <stentry><note conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-path"/><b
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-hcf"/><p
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-hcf-download"/><note
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-hcf-download-note"/><b
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-terraform"/><p
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-terraform-download"/><b
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-cf"/><p
+            conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-cf-download"/><xref
+            href="hcf-on-hpc-step-3.dita#concept_kpg_fhz_st">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref></stentry>
    </strow>

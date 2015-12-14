@@ -27,8 +27,8 @@
        keyref="quickStartHOSstep6"/></xref></stentry>
     <stentry><b>Prerequisites</b><p>
       <ul id="ul_chh_np1_h5">
-       <li>A tenant in a <keyword keyref="opnStckShort"/> environment with a minumum of 16GB for the
-        public-facing node and 8 GB for the DEA node, and a 40GB volume</li>
+       <li>A tenant in a <keyword keyref="opnStckShort"/> environment with a minumum of 8GB for the
+        public-facing node and 4 GB for the DEA node, and a 40GB volume</li>
        <li>A Ubuntu 14.04.3 base image in the <keyword keyref="opnStckShort"/> environment</li>
        <li>A system that has visibility to the tenant (you will <xref
          href="hcf-on-hos-step-4.dita#concept_pqc_jhz_st/run_terraform_command">run Terraform
