@@ -37,8 +37,8 @@
                     <codeph>sh</codeph> file and <codeph>source</codeph> the file, for
                     example:<codeblock>source 12345678901234-Project-openrc.sh</codeblock><p>When
                     prompted, enter your OpenStack password.</p></li>
-                <li>On a Windows machine, add the variables from the <codeph>sh</codeph> file at
-                  the command prompt one by one, or add the commands to a batch file, for
+                <li>On a Windows machine, add the variables from the <codeph>sh</codeph> file at the
+                  command prompt one by one, or add the commands to a batch file, for
                   example:<codeblock>set OS_AUTH_URL=https://region-a.geo-1.identity.hpcloudsvc.com:35357/v2.0/
 set OS_USERNAME=myUsername
 set OS_PASSWORD=myPassword123
@@ -47,8 +47,8 @@ set OS_TENANT_NAME=MyCluster
 set OS_REGION_NAME=region-a.geo-1</codeblock></li>
               </ul><note type="tip">When you close your terminal session, your variables will be
                 discarded. To prevent this, you can do the following: <ul id="ul_myk_1xp_tt">
-                  <li>On a Linux machine, add the variables to your <codeph>~/.bashrc</codeph>
-                    file and run the <codeph>source ~/.bashrc</codeph> command.</li>
+                  <li>On a Linux machine, add the variables to your <codeph>~/.bashrc</codeph> file
+                    and run the <codeph>source ~/.bashrc</codeph> command.</li>
                   <li>On a Windows machine, click <menucascade>
                       <uicontrol>Control Panel</uicontrol>
                       <uicontrol>System</uicontrol>
@@ -60,8 +60,8 @@ set OS_REGION_NAME=region-a.geo-1</codeblock></li>
             <li>Decompress the <keyword keyref="prodShort"/> file into a convenient directory.</li>
             <li>Navigate to the <keyword keyref="prodShort"/> directory and make a copy of the
                 <codeph>overrides.tfvars.sample</codeph> file, for example
-                <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file
-                contains the keys and credentials for your cluster.</note></li>
+                <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file contains the
+                keys and credentials for your cluster.</note></li>
             <li>Add variables to your <codeph>tfvars</codeph> file. For more information and
               examples, see <xref
                 href="../../reference/hcf-reference-tfvars.dita#reference_phl_shc_rt">Terraform
@@ -90,20 +90,16 @@ set OS_REGION_NAME=region-a.geo-1</codeblock></li>
                   scope="external">Command: Apply</xref>.</note></li>
           </ol><p>Terraform creates the necessary security groups and instances, installs Docker,
             installs the Docker images required to run <keyword keyref="prodShort"/>, and saves the
-            state of your infrastructure to <codeph>terraform.tfstate</codeph>.</p><note
-            type="tip">At the end of the process, Terraform displays the URL of the <keyword
+            state of your infrastructure to <codeph>terraform.tfstate</codeph>.</p><note type="tip"
+            >At the end of the process, Terraform displays the URL of the <keyword
               keyref="prodShort"/> public-facing node, formatted using the xip.io wildcard DNS, for
             example:<codeblock>api_endpoint = http://api.203.0.113.0.xip.io</codeblock>You will need
             this URL to use the Cloud Foundry CLI. You can also run the <codeph>terraform
               show</codeph> command to see detailed information about the public-facing
-            node.</note>If the cluster creation process fails, run the following command to clean up
-          created resources before attempting to create a new cluster:<note
-            conref="hcf-on-hpc-step-6.dita#concept_m3k_bth/delete_cluster"
-            /><codeblock>terraform destroy -var-file=<varname>&lt;myVariables></varname>.tfvars</codeblock><b>Exploring
-            the <keyword keyref="prodShort"/> Public-Facing Node</b><p>After the <keyword
-              keyref="prodShort"/> Docker image is deployed as an instance on <keyword
-              keyref="pubCloudShort"/>, you can view the instance and its security groups:</p><ul
-            id="ul_rqs_v43_tt">
+            node.</note><b>Exploring the <keyword keyref="prodShort"/> Public-Facing
+            Node</b><p>After the <keyword keyref="prodShort"/> Docker image is deployed as an
+            instance on <keyword keyref="pubCloudShort"/>, you can view the instance and its
+            security groups:</p><ul id="ul_rqs_v43_tt">
             <li>To view the instance, click <menucascade>
                 <uicontrol>Project</uicontrol>
                 <uicontrol>Compute</uicontrol>
