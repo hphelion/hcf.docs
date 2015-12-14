@@ -98,7 +98,7 @@ set OS_REGION_NAME=region-a.geo-1</codeblock></li>
               show</codeph> command to see detailed information about the public-facing
             node.</note>If the cluster creation process fails, run the following command to clean up
           created resources before attempting to create a new cluster:<note
-            conref="hcf-on-hpc-step-6.dita#concept_m3k_bth_tt/delete_cluster"
+            conref="hcf-on-hpc-step-6.dita#concept_m3k_bth/delete_cluster"
             /><codeblock>terraform destroy -var-file=<varname>&lt;myVariables></varname>.tfvars</codeblock><b>Exploring
             the <keyword keyref="prodShort"/> Public-Facing Node</b><p>After the <keyword
               keyref="prodShort"/> Docker image is deployed as an instance on <keyword
