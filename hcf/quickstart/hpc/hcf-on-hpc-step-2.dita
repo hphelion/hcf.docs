@@ -25,7 +25,7 @@
               href="http://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux"
               format="html" scope="external">see this page</xref>. To set it on Windows, <xref
               href="http://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows"
-              format="html" scope="external">see this page</xref>.</note><b>Downloading <keyword
+              format="html" scope="external">see this page</xref>.</note><b><keyword
               keyref="prodLong"/></b><p>You can use <keyword keyref="prodShort"/> to push
             application code to the server, to start and stop applications, and to perform other
             application management operations. <keyword keyref="prodShort"/> can be deployed on
@@ -35,44 +35,12 @@
                 format="html" scope="external">Download <keyword keyref="prodShort"/>
                 <keyword keyref="prodVerLong"/></xref>
             </li>
-          </ul><note type="tip">To decompress <codeph>tar.gz</codeph> files on Windows, you can use
-            a file archiver such as <xref href="http://www.7-zip.org/" format="html"
-              scope="external">7zip</xref>.</note><b>Downloading and Installing the Terraform
-            CLI</b><p>The Terraform CLI allows you to construct, manage, update, or delete <keyword
-              keyref="prodShort"/> clusters. Click the download link appropriate for your operating
-            system:</p><ul id="ul_d1k_5k1_tt">
-            <li>Linux <xref
-                href="https://releases.hashicorp.com/terraform/0.6.8/terraform_0.6.8_linux_386.zip"
-                format="zip" scope="external">x86</xref> | <xref
-                href="https://releases.hashicorp.com/terraform/0.6.8/terraform_0.6.8_linux_amd64.zip"
-                format="zip" scope="external">x64</xref></li>
-            <li>Mac OS X <xref
-                href="https://releases.hashicorp.com/terraform/0.6.8/terraform_0.6.8_darwin_386.zip"
-                format="zip" scope="external">x86</xref> | <xref
-                href="https://releases.hashicorp.com/terraform/0.6.8/terraform_0.6.8_darwin_amd64.zip"
-                format="zip" scope="external">x64</xref></li>
-            <li>Windows <xref
-                href="https://releases.hashicorp.com/terraform/0.6.8/terraform_0.6.8_windows_386.zip"
-                format="zip" scope="external">x86</xref> | <xref
-                href="https://releases.hashicorp.com/terraform/0.6.8/terraform_0.6.8_windows_amd64.zip"
-                format="zip" scope="external">x64</xref></li>
-          </ul><b>Downloading and Installing the Cloud Foundry CLI</b><p>The Cloud Foundry CLI
-            allows you to deploy and manage your applications. Click the download link appropriate
-            for your operating system:</p><ul id="ul_bp4_fpb_tt">
-            <li>Linux <xref
-                href="https://cli.run.pivotal.io/stable?release=linux32-binary&amp;version=6.14.0&amp;source=github-rel"
-                format="html" scope="external">x86</xref> | <xref
-                href="https://cli.run.pivotal.io/stable?release=linux64-binary&amp;version=6.14.0&amp;source=github-rel"
-                format="html" scope="external">x64</xref></li>
-            <li>Mac OS X <xref
-                href="https://cli.run.pivotal.io/stable?release=macosx64-binary&amp;version=6.14.0&amp;source=github-rel"
-                format="html" scope="external">x64</xref></li>
-            <li>Windows <xref
-                href="https://cli.run.pivotal.io/stable?release=windows32-exe&amp;version=6.14.0&amp;source=github-rel"
-                format="html" scope="external">x86</xref> | <xref
-                href="https://cli.run.pivotal.io/stable?release=windows64-exe&amp;version=6.14.0&amp;source=github-rel"
-                format="html" scope="external">x64</xref></li>
-          </ul><xref href="hcf-on-hpc-step-3.dita#concept_kpg_fhz_st">
+          </ul><b>Terraform CLI</b><p>The <xref href="https://terraform.io/downloads.html"
+              format="html" scope="external">Terraform CLI</xref> allows you to construct, manage,
+            update, or delete <keyword keyref="prodShort"/> clusters.</p><b>The Cloud Foundry
+            CLI</b><p>The <xref href="https://github.com/cloudfoundry/cli#downloads" format="html"
+              scope="external">Cloud Foundry CLI</xref> allows you to deploy and manage your
+            applications.</p><xref href="hcf-on-hpc-step-3.dita#concept_kpg_fhz_st">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref></stentry>
    </strow>
