@@ -77,32 +77,20 @@
               </tgroup>
             </table></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
             <li>Ensure that you are targeting the desired cluster, for
-                example:<codeblock id="target_cluster">cf api http://api.203.0.113.0.xip.io</codeblock><note>To
+                example:<codeblock id="target_cluster">cf api https://api.203.0.113.0.xip.io</codeblock><note>To
                 skip SSL validation, add the <codeph>--skip-ssl-validation</codeph> option to your
                 command. If you cannot connect to your cluster, ensure that your connection has no
                 proxy settings.</note></li>
             <li>Ensure that you are logged into the desired
                 cluster:<codeblock>cf login</codeblock><p id="user_pass">When prompted, enter your
                 username (email) and password.</p></li>
-            <li>If you are behind a proxy, set the proxy environment for your applications, for
-              example:<codeblock>cf set-staging-environment-variable-group "{ \
-'http_proxy':'http://proxy.example.com:8080', \
-'https_proxy':'http://proxy.example.com:8080', \
-'HTTP_PROXY':'http://proxy.example.com:8080', \
-'HTTPS_PROXY':'http://proxy.example.com:8080'}"</codeblock><codeblock>cf set-running-environment-variable-group "{ \
-'http_proxy':'http://proxy.example.com:8080', \
-'https_proxy':'http://proxy.example.com:8080', \
-'HTTP_PROXY':'http://proxy.example.com:8080', \
-'HTTPS_PROXY':'http://proxy.example.com:8080'}"</codeblock></li>
             <li>Create and target an
               organization:<codeblock>cf create-org <varname>&lt;organization></varname>
 cf target -o <varname>&lt;organization></varname></codeblock></li>
             <li>Create a space, attach it to your organization, and target
                 it:<codeblock>cf create-space <varname>&lt;space></varname> -o <varname>&lt;organization></varname>
-cf target -o <varname>&lt;organization></varname> -s <varname>&lt;space></varname></codeblock><note
-                type="tip">To save time, you can add all of the commands to a batch file or shell
-                script, for
-                example:<codeblock>cf api http://api.203.0.113.0.xip.io --skip-ssl-validation
+cf target -o <varname>&lt;organization></varname> -s <varname>&lt;space></varname></codeblock><note type="tip">To save time, you can add all of the commands to a batch file or shell script, for
+                example:<codeblock>cf api https://api.203.0.113.0.xip.io --skip-ssl-validation
 cf login
 cf create-org myOrg
 cf target -o myOrg
@@ -110,39 +98,32 @@ cf create-space mySpace -o myOrg
 cf target -o myOrg -s mySpace</codeblock></note></li>
           </ol><b>To Clone a GitHub Application and Push it to Your Cluster</b><ol
             id="ol_idl_1mw_tt">
-            <li>Navigate to the GitHub page of the application and from the <uicontrol>Choose a
-                clone URL</uicontrol> drop-down list select <uicontrol>HTTPS</uicontrol>.<note>You
-                can also download the application directly from GitHub by clicking
-                  <uicontrol>Download ZIP</uicontrol>.</note></li>
-            <li>Create a directory and clone the application, for
-              example:<codeblock>git clone https://github.com/Apps/myApp.git</codeblock></li>
-            <li>Ensure that the <codeph>yml</codeph> file in the application directory is configured
-              correctly.</li>
+            <li><codeph>git clone</codeph> the application and ensure that the
+                <codeph>manifest.yml</codeph> file in the application directory is configured
+                correctly.<note>For more information, see the Cloud Foundry documentation on <xref
+                  href="https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html"
+                  format="html" scope="external">Deploying with Application
+              Manifests</xref>.</note></li>
             <li>Target the cluster, for
-              example:<codeblock conref="#concept_cw2_thz/target_cluster"/></li>
-            <li>Ensure that you are logged into the cluster:<codeblock>cf login</codeblock><p
-                conref="#concept_cw2_thz/user_pass"/></li>
+              example:<codeblock>cf api https://api.203.0.113.0.xip.io</codeblock></li>
+            <li>Ensure that you are logged into the cluster:<codeblock>cf login</codeblock><p>When
+                prompted, enter your username (email) and password.</p></li>
             <li>Push the application:<codeblock>cf push</codeblock><p>Your application is deployed
                 to the cluster. At the end of the process, Cloud Foundry displays the URL of the
                 application, formatted using the xip.io wildcard DNS, for
                 example:<codeblock><b>urls:</b> myAppName.203.0.113.0.xip.io</codeblock></p><note
                 type="tip">You will need this URL to access the application using a web browser. You
                 can also run the <codeph>cf apps</codeph> command to see detailed information about
-                your application.</note><note>If you experience a problem, run the <codeph>cf delete
-                    <varname>&lt;appName></varname></codeph> command, make the necessary
-                adjustments, and then push the application again. For detailed instructions, see the
-                Cloud Foundry documentation:<ul id="ul_yyr_c5w_tt">
-                  <li><xref
-                      href="https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html"
-                      format="html" scope="external">Deploying an Application</xref></li>
-                  <li><xref href="https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html"
-                      format="html" scope="external">Deploying with Application
-                    Manifests</xref></li>
-                  <li><xref
-                      href="https://docs.cloudfoundry.org/devguide/deploy-apps/troubleshoot-app-health.html"
-                      format="html" scope="external">Troubleshooting Application Deployment and
-                      Health</xref></li>
-                </ul></note></li>
+                your application. For more information, see the Cloud Foundry documentation on <xref
+                  href="https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html"
+                  format="html" scope="external">Deploying an Application</xref>.</note><note>If you
+                experience a problem, run the <codeph>cf delete
+                  <varname>&lt;appName></varname></codeph> command, make the necessary adjustments,
+                and then push the application again. For detailed instructions, see the Cloud
+                Foundry documentation on <xref
+                  href="https://docs.cloudfoundry.org/devguide/deploy-apps/troubleshoot-app-health.html"
+                  format="html" scope="external">Troubleshooting Application Deployment and
+                  Health</xref>.</note></li>
           </ol><xref href="hcf-on-hpc-step-6.dita#concept_m3k_bth_tt">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref></stentry>
