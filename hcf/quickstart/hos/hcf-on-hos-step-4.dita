@@ -19,7 +19,7 @@
             /></b></p><p>5. <xref
               conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep5_"/></p>6. <xref
             conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
-    <stentry><b>To Deploy a Docker Image</b><ol id="ol_p2k_vx1_tt">
+    <stentry><b>To Deploy <keyword keyref="prodShort"/></b><ol id="ol_p2k_vx1_tt">
             <li>Decompress the <keyword keyref="prodShort"/> file into a convenient directory.</li>
             <li>Navigate to the <keyword keyref="prodShort"/> directory and make a copy of the
                 <codeph>overrides.tfvars.sample</codeph> file, for example

@@ -26,11 +26,10 @@
               format="html" scope="external">see this page</xref>. To set it on Windows, <xref
               href="http://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows"
               format="html" scope="external">see this page</xref>.</note><b>Downloading <keyword
-              keyref="prodLong"/></b><p>You can use <keyword keyref="prodShort"/> to push Docker
-            images and application code to the server, to start and stop applications, to link
-              <keyword keyref="opnStckShort"/> services to applications, and to perform other
-            application management operations. <keyword keyref="prodShort"/> works on Linux, Mac OS
-            X, and Windows.</p><ul id="ul_cfn_rm1_tt">
+              keyref="prodLong"/></b><p>You can use <keyword keyref="prodShort"/> to push
+            application code to the server, to start and stop applications, and to perform other
+            application management operations. <keyword keyref="prodShort"/> can be deployed on
+            Linux, Mac OS X, and Windows.</p><ul id="ul_cfn_rm1_tt">
             <li><xref
                 href="https://helion.hpwsportal.com/catalog.html#/Category/%7B%22categoryId%22%3A10604%7D/Show"
                 format="html" scope="external">Download <keyword keyref="prodShort"/>
