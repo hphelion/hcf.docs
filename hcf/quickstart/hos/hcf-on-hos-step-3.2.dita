@@ -76,7 +76,7 @@
                     ><codeph>ssh</codeph> into your cluster</xref>.</note></li>
             <li>Determine your network ID:<codeblock>neutron net-list</codeblock><note type="tip"
                 >You will need the network ID to <xref
-                  href="../../reference/hcf-reference-tfvars.dita#reference_phl_shc_rt">configure
+                  href="../../reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt">configure
                   your <codeph>tfvars</codeph> file</xref> and to <xref
                   href="hcf-on-hos-step-4.dita#concept_pqc_jhz_st/run_terraform_command">run
                   terraform commands.</xref></note></li>

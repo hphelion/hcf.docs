@@ -55,7 +55,8 @@
         </ul><ul id="ul_sm4_zn3_h5">
           <li><b>Reference</b><ul id="ul_tm4_zn3_h5">
               <li><xref href="reference/hcf-reference-openrc-sh.dita#hcf-reference-openrc-sh"/></li>
-              <li><xref href="reference/hcf-reference-tfvars.dita#reference_phl_shc_rt"/></li>
+              <li><xref href="reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt"/></li>
+              <li><xref href="reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc"/></li>
               <li><xref href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/></li>
               <li><xref href="reference/hcf-reference-roles.dita#cf_reference_roles"/></li>
             </ul></li>

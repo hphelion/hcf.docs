@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_phl_shc">
+  <title>Terraform Variables for <keyword keyref="pubCloudShort"/></title>
+  <shortdesc>You must configure a number of Terraform variables in order to create a <keyword
+      keyref="prodShort"/> cluster. You can configure the values of these variables in your
+      <codeph>tfvars</codeph> file using the <codeph>overrides.tfvars.sample</codeph> file included
+    with <keyword keyref="prodLong"/> as an example.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="author" content="Michael Khmelnitsky"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <table frame="all" rowsep="1" colsep="1" id="table_fjz_c3c">
+      <desc>
+        <note type="warning" id="warning-hpc">If you configure any variables other than those
+          specified in the <filepath>overrides.tfvars.sample</filepath> file, the cluster creation
+          process may fail.</note>
+        <note type="important">All values are required. Except for <codeph>dea_count</codeph>,
+          specify all variable values in quotation marks. These values are case-sensitive.</note>
+      </desc>
+      <tgroup cols="3">
+        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+        <colspec colname="c3" colnum="4" colwidth="1.0*"/>
+        <thead>
+          <row>
+            <entry>Variable</entry>
+            <entry>Description</entry>
+            <entry>Notes</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><codeph>cluster_admin_username</codeph></entry>
+            <entry>The initial username for your cluster</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><codeph>cluster_admin_password</codeph></entry>
+            <entry>The initial password for your cluster</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><codeph>dea_count</codeph></entry>
+            <entry>The number of Droplet Execution Agent (DEA) hosts that you want to create</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><codeph>key_file</codeph></entry>
+            <entry>The location and name of the private key <codeph>pem</codeph> file associated
+              with your key pair, relative to your <codeph>tfvars</codeph> file.</entry>
+            <entry>For convenience, you can place the <codeph>pem</codeph> and
+                <codeph>tfvars</codeph>files into the same directory.</entry>
+          </row>
+          <row>
+            <entry><codeph>openstack_availability_zone</codeph></entry>
+            <entry>The unique regional location on which the deployment is launched</entry>
+            <entry>
+              <ul id="ul_gkj_zp3">
+                <li>The default value for <keyword keyref="opnStckShort"/> is
+                  <codeph>nova</codeph>.</li>
+                <li>The default value for <keyword keyref="pubCloudShort"/> is
+                  <codeph>az1</codeph>.</li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry><codeph>openstack_keypair</codeph></entry>
+            <entry>The name of your key pair</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><codeph>openstack_network_id</codeph></entry>
+            <entry>The network ID</entry>
+            <entry>To determine the network ID , run the <codeph>neutron net-list</codeph>
+              command.</entry>
+          </row>
+          <row>
+            <entry><codeph>openstack_network_name</codeph></entry>
+            <entry>The name of your network</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><codeph>openstack_region</codeph></entry>
+            <entry>The region of your tenant</entry>
+            <entry>The default value is <codeph>us-east</codeph></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <example>
+      <title>A sample <codeph>.tfvars</codeph> file for <keyword keyref="pubCloudShort"/></title>
+      <codeblock>openstack_availability_zone = "az1"
+openstack_keypair = "myKeyPair"
+openstack_network_id = "123a1ab1-12a1-123a-1a12-a1234a123a12"
+openstack_network_name = "myNetwork"
+openstack_region = "us-west"
+cluster_admin_username = "myClusterUsername"
+cluster_admin_password = "myClusterPassword123"
+key_file = "myKeyFile.pem"
+dea_count = 1</codeblock>
+    </example>
+  </refbody>
+</reference>
