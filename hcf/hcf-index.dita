@@ -29,8 +29,8 @@
       <li><xref href="hcf-whats-new.dita#concept_uvz_1cx_tt"/></li>
       <li><xref href="hcf-release-notes.dita#cfr_relnotes"/></li>
       <li><xref href="hcf-agreements.dita#cfr_tp_licensing"/></li>
-      <li><b>Quick-Start Guides</b><ul id="ul_qyw_xn3_h5">
-          <li><b>Deploying to <keyword keyref="opnStckLong"/></b><ul id="ul_n4b_zn3_h5">
+      <li><xref href="quickstart/hcf-quickstart.dita#hcf-quickstart"/><ul id="ul_qyw_xn3_h5">
+          <li><xref href="quickstart/hos/hcf-on-hos.dita#cfr_hos_quickstart"/><ul id="ul_n4b_zn3_h5">
               <li><xref href="quickstart/hos/hcf-on-hos-step-1.dita#concept_s2k_b35_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st"/><ul
@@ -44,7 +44,8 @@
               <li><xref href="quickstart/hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt"/></li>
             </ul></li>
-          <li><b>Deploying to <keyword keyref="pubCloudLong"/></b><ul id="ul_im1_yn3_h5">
+          <li><xref href="quickstart/hpc/hcf-on-hpc.dita#cfr_pubcloud_quickstart"/><ul
+              id="ul_im1_yn3_h5">
               <li><xref href="quickstart/hpc/hcf-on-hpc-step-1.dita#concept_s2k_b35"/></li>
               <li><xref href="quickstart/hpc/hcf-on-hpc-step-2.dita#concept_ikh_xgz"/></li>
               <li><xref href="quickstart/hpc/hcf-on-hpc-step-3.dita#concept_kpg_fhz"/></li>
@@ -53,7 +54,7 @@
               <li><xref href="quickstart/hpc/hcf-on-hpc-step-6.dita#concept_m3k_bth"/></li>
             </ul></li>
         </ul><ul id="ul_sm4_zn3_h5">
-          <li><b>Reference</b><ul id="ul_tm4_zn3_h5">
+          <li><xref href="reference/hcf-reference.dita#cfr_reference"/><ul id="ul_tm4_zn3_h5">
               <li><xref href="reference/hcf-reference-openrc-sh.dita#hcf-reference-openrc-sh"/></li>
               <li><xref href="reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt"/></li>
               <li><xref href="reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc"/></li>
