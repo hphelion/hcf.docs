@@ -104,50 +104,6 @@
           </dd>
         </dlentry>
       </dl>
-      <draft-comment author="michaelk">
-        <dl>
-          <dlentry>
-            <dt><codeph id="role_example">role</codeph></dt>
-            <dd>Manage role containers. By default, uses the <codeph>$DOCKER_HOST</codeph>
-              environment variable to determine the Docker server endpoint. Use the
-                <codeph>--node</codeph> flag to start, stop, or restart a <xref
-                href="hcf-reference-roles.dita#cf_reference_roles"
-                ><varname>&lt;role></varname></xref> on a specific node. For example: </dd>
-          </dlentry>
-          <dlentry id="role_start">
-            <dt><codeph>role start <varname>[options]</varname></codeph></dt>
-            <dd>Start the <xref href="hcf-reference-roles.dita#cf_reference_roles"
-                  ><varname>&lt;role></varname></xref>.<codeblock>$ <keyword keyref="adminUtilCLI"/> role start consul</codeblock><dl>
-                <dlentry>
-                  <dt><codeph>--node</codeph>, <codeph>-n</codeph></dt>
-                  <dd>Set the Docker server endpoint. Schemes and port number are required.
-                    Supported schemes: <codeph>tcp://</codeph>
-                    <codeph>unix://</codeph>
-                    <codeph>http://</codeph>
-                    <codeph>https://</codeph></dd>
-                </dlentry>
-              </dl></dd>
-          </dlentry>
-          <dlentry id="role_stop_restart">
-            <dt><codeph>role stop|restart <varname>[options]</varname></codeph></dt>
-            <dd>Stop or restart the <xref href="hcf-reference-roles.dita#cf_reference_roles"
-                  ><varname>&lt;role></varname></xref>.<codeblock>$ <keyword keyref="adminUtilCLI"/> role stop stats</codeblock><codeblock>$ <keyword keyref="adminUtilCLI"/> role restart uaa</codeblock><dl>
-                <dlentry>
-                  <dt><codeph>--node</codeph>, <codeph>-n</codeph></dt>
-                  <dd>Set the Docker server endpoint. Schemes and port number are required.
-                    Supported schemes: <codeph>tcp://</codeph>
-                    <codeph>unix://</codeph>
-                    <codeph>http://</codeph>
-                    <codeph>https://</codeph></dd>
-                </dlentry>
-                <dlentry>
-                  <dt><codeph>--timeout</codeph>, <codeph>-t "0"</codeph></dt>
-                  <dd>Set the number of seconds to wait before killing the container.</dd>
-                </dlentry>
-              </dl></dd>
-          </dlentry>
-        </dl>
-      </draft-comment>
     </section>
   </refbody>
 </reference>

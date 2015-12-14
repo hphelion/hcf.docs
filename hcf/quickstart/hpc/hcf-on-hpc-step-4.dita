@@ -10,15 +10,6 @@
   </metadata>
  </prolog>
  <conbody>
-    <draft-comment author="michaelk">
-      <note type="tip">If you work on Windows, you can make the visual output of your commands more
-        readable by <xref
-          href="https://www.liferay.com/web/igor.spasic/blog/-/blogs/enable-ansi-colors-in-windows-command-prompt"
-          format="html" scope="external">enabling ANSI colors in the Windows command prompt</xref>
-        or using a tool like <xref href="https://www.cygwin.com/" format="html" scope="external"
-          >Cygwin</xref> or <xref href="https://git-for-windows.github.io/" format="html"
-          scope="external">Git Bash</xref>.</note>
-    </draft-comment>
   <simpletable>
    <strow>
     <stentry>1. <xref conref="hcf-on-hpc-step-2.dita#concept_ikh_xgz/quickStartHPcloudStep1_"/><p>2.

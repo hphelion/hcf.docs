@@ -111,9 +111,9 @@ cf target -o myOrg -s mySpace</codeblock></note></li>
             <li>Ensure that the <codeph>yml</codeph> file in the application directory is configured
               correctly.</li>
             <li>Target the cluster, for
-              example:<codeblock conref="#concept_cw2_thz_st/target_cluster"/></li>
+              example:<codeblock conref="#concept_cw2_thz/target_cluster"/></li>
             <li>Ensure that you are logged into the cluster:<codeblock>cf login</codeblock><p
-                conref="#concept_cw2_thz_st/user_pass"/></li>
+                conref="#concept_cw2_thz/user_pass"/></li>
             <li>Push the application:<codeblock>cf push</codeblock><p>Your application is deployed
                 to the cluster. At the end of the process, Cloud Foundry displays the URL of the
                 application, formatted using the xip.io wildcard DNS, for
