@@ -14,7 +14,7 @@
   <refbody>
     <table frame="all" rowsep="1" colsep="1" id="table_fjz_c3c_rt">
       <desc>
-        <note type="warning" id="warning-hos">If you configure any variables other than those
+        <note type="important" id="warning-hos">If you configure any variables other than those
           specified in the <filepath>overrides.tfvars.sample</filepath> file, the cluster creation
           process may fail.</note>
         <note type="important">All values are required. Except for <codeph>dea_count</codeph>,
@@ -57,12 +57,11 @@
           <row>
             <entry><codeph>http_proxy</codeph></entry>
             <entry>The address of your HTTP proxy</entry>
-            <entry>If you do not use a proxy, leave the value blank.</entry>
+            <entry morerows="1">If you do not use a proxy, leave the value blank.</entry>
           </row>
           <row>
             <entry><codeph>https_proxy</codeph></entry>
             <entry>The address of your HTTPS proxy</entry>
-            <entry>If you do not use a proxy, leave the value blank.</entry>
           </row>
           <row>
             <entry><codeph>key_file</codeph></entry>
