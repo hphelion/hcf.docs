@@ -27,40 +27,55 @@
                 <b><keyword keyref="quickStartHPcloudStep5" id="quickStartHPcloudStep5"/></b></p>6.
             <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep6_"/></stentry>
     <stentry><b>Sample Applications</b><p>The following sample applications will get your started
-            with the <codeph>cf push</codeph> workflow:<dl>
-              <dlentry>
-                <dt><xref href="https://github.com/Stackato-Apps/go-env" format="html"
-                    scope="external">go-env</xref> (Go)</dt>
-                <dd>A simple Go application to display environment
-                  variables<codeblock>git clone https://github.com/Stackato-Apps/go-env.git</codeblock></dd>
-              </dlentry>
-              <dlentry>
-                <dt><xref href="https://github.com/Stackato-Apps/node-env" format="html"
-                    scope="external">node-env</xref> (Node.js)</dt>
-                <dd>A simple demo that prints the server's environment variables
-                  <codeblock>git clone https://github.com/Stackato-Apps/node-env.git</codeblock></dd>
-              </dlentry>
-              <dlentry>
-                <dt><xref href="https://github.com/Stackato-Apps/phpinfo" format="html"
-                    scope="external">phpinfo</xref> (PHP)</dt>
-                <dd>Outputs information about PHP's
-                  configuration<codeblock>git clone https://github.com/Stackato-Apps/phpinfo.git</codeblock></dd>
-              </dlentry>
-              <dlentry>
-                <dt><xref href="https://github.com/hpcloud/python-env" format="html"
-                    scope="external">python-env</xref> (Python)</dt>
-                <dd>A simple Python app to show environment
-                  variables<codeblock>git clone https://github.com/hpcloud/python-env.git</codeblock></dd>
-              </dlentry>
-              <dlentry>
-                <dt><xref href="https://github.com/Stackato-Apps/sinatra-env" format="html"
-                    scope="external">sinatra-env (Ruby)</xref></dt>
-                <dd>This is a simple Sinatra Ruby
-                    application<codeblock>git clone https://github.com/Stackato-Apps/sinatra-env.git</codeblock><note>After
-                    you push the application, append <codeph>/get</codeph> to its endpoint
-                    URL.</note></dd>
-              </dlentry>
-            </dl></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
+            with the <codeph>cf push</codeph> workflow:<table frame="all" rowsep="1" colsep="1"
+              id="table_yhf_1tk_35">
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Cloud Foundry Applications</entry>
+                    <entry>Helion Stackato Applications</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry/>
+                    <entry>
+                      <dl>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/go-env" format="html"
+                              scope="external">go-env</xref> (Go)</dt>
+                          <dd>A simple Go application to display environment variables</dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/node-env" format="html"
+                              scope="external">node-env</xref> (Node.js)</dt>
+                          <dd>A simple demo that prints the server's environment variables </dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/phpinfo" format="html"
+                              scope="external">phpinfo</xref> (PHP)</dt>
+                          <dd>Outputs information about PHP's configuration</dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/hpcloud/python-env" format="html"
+                              scope="external">python-env</xref> (Python)</dt>
+                          <dd>A simple Python app to show environment variables</dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/sinatra-env"
+                              format="html" scope="external">sinatra-env (Ruby)</xref></dt>
+                          <dd>This is a simple Sinatra Ruby application<note>After you push the
+                              application, append <codeph>/get</codeph> to its endpoint
+                            URL.</note></dd>
+                        </dlentry>
+                      </dl>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
             <li>Ensure that you are targeting the desired cluster, for
                 example:<codeblock id="target_cluster">cf api http://api.203.0.113.0.xip.io</codeblock><note>To
                 skip SSL validation, add the <codeph>--skip-ssl-validation</codeph> option to your
@@ -104,11 +119,11 @@ cf target -o myOrg -s mySpace</codeblock></note></li>
                 application, formatted using the xip.io wildcard DNS, for
                 example:<codeblock><b>urls:</b> myAppName.203.0.113.0.xip.io</codeblock></p><note
                 type="tip">You will need this URL to access the application using a web browser. You
-                can also run the <codeph>cf apps</codeph> command to see detailed information
-                about your application.</note><note>If you experience a problem, run the
-                  <codeph>cf delete <varname>&lt;appName></varname></codeph> command, make the
-                necessary adjustments, and then push the application again. For detailed
-                instructions, see the Cloud Foundry documentation:<ul id="ul_yyr_c5w_tt">
+                can also run the <codeph>cf apps</codeph> command to see detailed information about
+                your application.</note><note>If you experience a problem, run the <codeph>cf delete
+                    <varname>&lt;appName></varname></codeph> command, make the necessary
+                adjustments, and then push the application again. For detailed instructions, see the
+                Cloud Foundry documentation:<ul id="ul_yyr_c5w_tt">
                   <li><xref
                       href="https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html"
                       format="html" scope="external">Deploying an Application</xref></li>

@@ -26,28 +26,55 @@
         keyref="quickStartHOSstep5" id="quickStartHOSstep5"/></b></p>6. <xref
           conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
     <stentry><b>Sample Applications</b><p>The following sample applications will get your started
-            with the <codeph>cf push</codeph> workflow:<dl>
-              <dlentry>
-                <dt>??? (Go)</dt>
-                <dd>Description</dd>
-              </dlentry>
-              <dlentry>
-                <dt>??? (Node.js)</dt>
-                <dd>Description</dd>
-              </dlentry>
-              <dlentry>
-                <dt>??? (PHP)</dt>
-                <dd>Description</dd>
-              </dlentry>
-              <dlentry>
-                <dt>??? (Python)</dt>
-                <dd>Description</dd>
-              </dlentry>
-              <dlentry>
-                <dt>??? (Ruby)</dt>
-                <dd>Description</dd>
-              </dlentry>
-            </dl></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
+            with the <codeph>cf push</codeph> workflow:<table frame="all" rowsep="1" colsep="1"
+              id="table_yhf_1tk_35">
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Cloud Foundry Applications</entry>
+                    <entry>Helion Stackato Applications</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry/>
+                    <entry>
+                      <dl>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/go-env" format="html"
+                              scope="external">go-env</xref> (Go)</dt>
+                          <dd>A simple Go application to display environment variables</dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/node-env" format="html"
+                              scope="external">node-env</xref> (Node.js)</dt>
+                          <dd>A simple demo that prints the server's environment variables </dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/phpinfo" format="html"
+                              scope="external">phpinfo</xref> (PHP)</dt>
+                          <dd>Outputs information about PHP's configuration</dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/hpcloud/python-env" format="html"
+                              scope="external">python-env</xref> (Python)</dt>
+                          <dd>A simple Python app to show environment variables</dd>
+                        </dlentry>
+                        <dlentry>
+                          <dt><xref href="https://github.com/Stackato-Apps/sinatra-env"
+                              format="html" scope="external">sinatra-env (Ruby)</xref></dt>
+                          <dd>This is a simple Sinatra Ruby application<note>After you push the
+                              application, append <codeph>/get</codeph> to its endpoint
+                            URL.</note></dd>
+                        </dlentry>
+                      </dl>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
             <li>Ensure that you are targeting the desired cluster, for
                 example:<codeblock id="target_cluster">cf api https://api.203.0.113.0.xip.io</codeblock><note>To
                 skip SSL validation, add the <codeph>--skip-ssl-validation</codeph> option to your
