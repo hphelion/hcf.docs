@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_pqc_jhz">
  <title>Quick Start Step 4: <keyword keyref="quickStartHPcloudStep4"/></title>
- <shortdesc>During this step you will use Terraform to create an <keyword keyref="prodLong"/>
-    cluster on <keyword keyref="pubCloudLong"/>.</shortdesc>
+ <shortdesc>During this step you will use <codeph>terraform</codeph> to create an <keyword
+      keyref="prodLong"/> cluster on <keyword keyref="pubCloudLong"/>.</shortdesc>
  <prolog>
   <metadata>
    <othermeta name="author" content="Michael Khmelnitsky"/>
@@ -24,7 +24,7 @@
             <li>Navigate to the <codeph>/direct_internet</codeph> directory.</li>
             <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d3"/>
             <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d4"/>
-            <li id="run_terraform_command">Apply the Terraform variables, for
+            <li id="run_terraform_command">Apply the <codeph>terraform</codeph> variables, for
                 example:<codeblock>terraform apply -var-file=myVars.tfvars</codeblock><note>You may
                 receive the error message <msgph>Can not find requested image</msgph> if the various
                 settings of your sandbox environment are not configured consistently on US East or

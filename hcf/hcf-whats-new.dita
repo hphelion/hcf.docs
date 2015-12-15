@@ -14,22 +14,22 @@
    <p>The following features and functionality have been added to <keyword keyref="prodLong"/>:</p>
    <dl>
     <dlentry>
-     <dt>Terraform</dt>
+     <dt><codeph>terraform</codeph></dt>
      <dd>If you have worked with Cloud Foundry before, <keyword keyref="prodShort"/> will allow you
       to work in a familiar environment where instead of BOSH, <keyword keyref="prodShort"/> uses
-       <xref href="https://terraform.io/" format="html" scope="external">Terraform</xref>, a service
-      management command-line tool.</dd>
+        <codeph><xref href="https://terraform.io/" format="html" scope="external"
+       >terraform</xref></codeph>, a service management command-line tool.</dd>
     </dlentry>
     <dlentry>
-     <dt><keyword keyref="adminUtilCLI"/></dt>
+     <dt><codeph><keyword keyref="adminUtilCLI"/></codeph></dt>
      <dd>If you have worked with <xref
        href="http://www8.hp.com/us/en/cloud/helion-devplatform-overview.html" format="html"
        scope="external">HPE Helion Stackato</xref> or with the <xref
-       href="http://dev.hpcloud.com/hdp/" format="html" scope="external"
-       >HPE Helion Development Platform</xref> before, <keyword keyref="prodShort"/> will allow you
-      to work with <codeph><keyword keyref="adminUtilCLI"/></codeph>, a new command-line
-      administration utility that shares some functionality with Kato. For more information, see the
-       <xref href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/>.</dd>
+       href="http://dev.hpcloud.com/hdp/" format="html" scope="external">HPE Helion Development
+       Platform</xref> before, <keyword keyref="prodShort"/> will allow you to work with
+        <codeph><keyword keyref="adminUtilCLI"/></codeph>, a new command-line administration utility
+      that shares some functionality with <codeph>kato</codeph>. For more information, see the <xref
+       href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/>.</dd>
     </dlentry>
    </dl>
   </section>

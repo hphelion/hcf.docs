@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_phl_shc">
   <title>Terraform Variables for <keyword keyref="pubCloudShort"/></title>
-  <shortdesc>You must configure a number of Terraform variables in order to create a <keyword
-      keyref="prodShort"/> cluster. You can configure the values of these variables in your
+  <shortdesc>You must configure a number of <codeph>terraform</codeph> variables in order to create
+    a <keyword keyref="prodShort"/> cluster. You can configure the values of these variables in your
       <codeph>tfvars</codeph> file using the <codeph>overrides.tfvars.sample</codeph> file included
     with <keyword keyref="prodLong"/> as an example.</shortdesc>
   <prolog>

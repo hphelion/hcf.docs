@@ -39,7 +39,8 @@
                   <uicontrol>Create</uicontrol>.</li>
                 <li id="hos-2-e">To find the network ID, click the name of your network. <note
                     type="tip">You will need the network ID to configure your
-                      <codeph>tfvars</codeph> file and to run terraform commands.</note></li>
+                      <codeph>tfvars</codeph> file and to run <codeph>terraform</codeph>
+                    commands.</note></li>
                 <li>Click the name of your network and then click <uicontrol>Edit Subnet</uicontrol>
                   in the <uicontrol>Actions</uicontrol> column of your subnet's row.</li>
                 <li>On the <uicontrol>Edit Subnet</uicontrol> dialog box, click <uicontrol>Subnet
@@ -114,8 +115,8 @@
                 <li>If the key pair does not download automatically, click the link and save the
                     <codeph>pem</codeph> file in a convenient location.</li>
               </ol><note type="tip">The <codeph>pem</codeph> file contains the RSA private key that
-                you will need to run Terraform commands and to <codeph>ssh</codeph> into your
-                cluster. The location of the <codeph>pem</codeph> file is relative to the
+                you will need to run <codeph>terraform</codeph> commands and to <codeph>ssh</codeph>
+                into your cluster. The location of the <codeph>pem</codeph> file is relative to the
                   <codeph>tfvars</codeph> file in which it is specified. For convenience, you can
                 place the two files into the same directory.</note></li>
           </ol><b id="authenticate-openrc">To Load Variables from Your <codeph>openrc.sh</codeph>
