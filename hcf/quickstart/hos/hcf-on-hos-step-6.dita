@@ -20,15 +20,14 @@
        keyref="quickStartHOSstep6"/></b></stentry>
     <stentry><b id="connecting_to_your_cluster">Connecting to Your Cluster</b><p
                         id="connecting-cluster">To administer and troubleshoot your cluster, you can
-                        connect to it using <codeph>ssh</codeph> and then run <codeph><keyword
-                                keyref="adminUtilCLI"/></codeph> commands. To connect, specify the
-                        IP address of your <keyword keyref="prodShort"/> core and the location of
-                        your RSA private key, for
-                        example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock>For
-                        more information, see <xref
+                        connect to it using <codeph>ssh</codeph> and then run <xref
                             href="../../reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"
-                        />.</p><b>To Terminate Nodes and Security Groups from <keyword
-                            keyref="opnStckShort"/></b><ol id="terminate-nodes-secgroups">
+                                    ><codeph><keyword keyref="adminUtilCLI"/></codeph>
+                            commands</xref>. To connect, specify the IP address of your <keyword
+                            keyref="prodShort"/> core and the location of your RSA private key, for
+                        example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock></p><b>To
+                        Terminate Nodes and Security Groups from <keyword keyref="opnStckShort"
+                        /></b><ol id="terminate-nodes-secgroups">
                         <li>Log into <xref href="https://horizon.hpcloud.com/" format="html"
                                 scope="external"><keyword keyref="opnStckShort"/></xref>.</li>
                         <li>Click <menucascade>

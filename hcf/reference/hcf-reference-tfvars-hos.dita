@@ -15,10 +15,11 @@
     <table frame="all" rowsep="1" colsep="1" id="table_fjz_c3c_rt">
       <desc>
         <note type="important" id="warning-hos">If you configure any variables other than those
-          specified in the <filepath>overrides.tfvars.sample</filepath> file, the cluster creation
+          specified in the <codeph>overrides.tfvars.sample</codeph> file, the cluster creation
           process may fail.</note>
-        <note type="important">All values are required. Except for <codeph>dea_count</codeph>,
-          specify all variable values in quotation marks. These values are case-sensitive.</note>
+        <note type="important" id="warning-hos-values">All values are required. Except for
+            <codeph>dea_count</codeph>, specify all variable values in quotation marks. These values
+          are case-sensitive.</note>
       </desc>
       <tgroup cols="3">
         <colspec colname="c1" colnum="1" colwidth="1.0*"/>

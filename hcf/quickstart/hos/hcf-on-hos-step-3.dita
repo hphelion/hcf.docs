@@ -85,12 +85,11 @@
                 <li>Ensure that your router is shown connected to your network and the external
                   network.</li>
               </ol></li>
-            <li id="hos-6">Ensure that you have at least 12GB of RAM.<p>To view your current limits,
-                click <menucascade>
-                  <uicontrol>Project</uicontrol>
-                  <uicontrol>Compute</uicontrol>
-                  <uicontrol>Overview</uicontrol>
-                </menucascade></p></li>
+            <li id="hos-6">To ensure that you have at least 12GB of RAM, click <menucascade>
+                <uicontrol>Project</uicontrol>
+                <uicontrol>Compute</uicontrol>
+                <uicontrol>Overview</uicontrol>
+              </menucascade></li>
           </ol><b id="download_config_file">To Download the Configuration File and Key Pair</b><ol
             id="download-confile-keypair">
             <li>To download the <codeph>sh</codeph> configuration file, click <menucascade>

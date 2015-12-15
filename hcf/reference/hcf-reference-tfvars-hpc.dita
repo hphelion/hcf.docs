@@ -14,11 +14,8 @@
   <refbody>
     <table frame="all" rowsep="1" colsep="1" id="table_fjz_c3c">
       <desc>
-        <note type="important" id="warning-hpc">If you configure any variables other than those
-          specified in the <filepath>overrides.tfvars.sample</filepath> file, the cluster creation
-          process may fail.</note>
-        <note type="important">All values are required. Except for <codeph>dea_count</codeph>,
-          specify all variable values in quotation marks. These values are case-sensitive.</note>
+        <note conref="hcf-reference-tfvars-hos.dita#reference_phl_shc_rt/warning-hos"/>
+        <note conref="hcf-reference-tfvars-hos.dita#reference_phl_shc_rt/warning-hos-values"/>
       </desc>
       <tgroup cols="3">
         <colspec colname="c1" colnum="1" colwidth="1.0*"/>
