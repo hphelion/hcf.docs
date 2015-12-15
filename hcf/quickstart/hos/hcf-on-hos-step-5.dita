@@ -88,15 +88,15 @@
                 example:<note type="important" id="proxy-warning">If you configure your proxy
                 servers in the <codeph>10.x.x.x</codeph> network, the application staging process
                 will fail. This network range is reserved for Warden
-              containers.</note><codeblock>cf set-staging-environment-variable-group "{ \
-'http_proxy':'http://proxy.example.com:8080', \
-'https_proxy':'http://proxy.example.com:8080', \
-'HTTP_PROXY':'http://proxy.example.com:8080', \
-'HTTPS_PROXY':'http://proxy.example.com:8080'}"</codeblock><codeblock>cf set-running-environment-variable-group "{ \
-'http_proxy':'http://proxy.example.com:8080', \
-'https_proxy':'http://proxy.example.com:8080', \
-'HTTP_PROXY':'http://proxy.example.com:8080', \
-'HTTPS_PROXY':'http://proxy.example.com:8080'}"</codeblock></li>
+              containers.</note><codeblock>cf set-staging-environment-variable-group '{
+"http_proxy":"http://proxy.example.com:8080",
+"https_proxy":"http://proxy.example.com:8080",
+"HTTP_PROXY":"http://proxy.example.com:8080",
+"HTTPS_PROXY":"http://proxy.example.com:8080"}'</codeblock><codeblock>cf set-running-environment-variable-group '{
+"http_proxy":"http://proxy.example.com:8080",
+"https_proxy":"http://proxy.example.com:8080",
+"HTTP_PROXY":"http://proxy.example.com:8080",
+"HTTPS_PROXY":"http://proxy.example.com:8080"}'</codeblock></li>
             <li id="create-target-org">Create and target an
               organization:<codeblock>cf create-org <varname>&lt;organization></varname>
 cf target -o <varname>&lt;organization></varname></codeblock></li>
