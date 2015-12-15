@@ -126,9 +126,10 @@
                       <codeph>source</codeph> the file, for
                       example:<codeblock>source 12345678901234-Project-openrc.sh</codeblock><p>When
                       prompted, enter your OpenStack password.</p></li>
-                  <li>Navigate to the directory that contains the <codeph>openrc.sh</codeph> file
-                    and <codeph>source</codeph> the file. <p>When prompted, enter your OpenStack
-                      password.</p></li>
+                  <li>(Optional) To prevent the variables from being discarded when you close your
+                    terminal session, add the variables to your
+                      <systemoutput>~/.bashrc</systemoutput> file and <codeph>source</codeph> the
+                    file.</li>
                 </ol></li>
               <li>On Windows:<ol id="ol_a22_1mb_h5">
                   <li>Create a file named <codeph>openrc.bat</codeph> and add variables to it from

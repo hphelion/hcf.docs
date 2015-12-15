@@ -54,15 +54,8 @@
           </row>
           <row>
             <entry><codeph>openstack_availability_zone</codeph></entry>
-            <entry>The unique regional location on which the deployment is launched</entry>
-            <entry>
-              <ul id="ul_gkj_zp3">
-                <li>The default value for <keyword keyref="opnStckShort"/> is
-                  <codeph>nova</codeph>.</li>
-                <li>The default value for <keyword keyref="pubCloudShort"/> is
-                  <codeph>az1</codeph>.</li>
-              </ul>
-            </entry>
+            <entry>The unique regional location on which your cluster is launched</entry>
+            <entry>The default value is <codeph>az1</codeph>.</entry>
           </row>
           <row>
             <entry><codeph>openstack_keypair</codeph></entry>

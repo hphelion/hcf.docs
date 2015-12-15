@@ -51,7 +51,7 @@
               example:<codeblock>api_endpoint = https://api.203.0.113.0.xip.io</codeblock>You will
               need this URL to use the Cloud Foundry CLI. You can also run the <codeph>terraform
                 show</codeph> command to see detailed information about the
-            core.</note></p><b>Exploring the <keyword keyref="prodShort"/> Deployment</b><p
+            core.</note></p><b>Exploring Your <keyword keyref="prodShort"/> Cluster</b><p
             id="exploring-hcf">After <keyword keyref="prodShort"/> is deployed on <keyword
               keyref="opnStckShort"/>, you can view its nodes and security groups:</p><ul
             id="exploring-view-nodes-secgroups">
