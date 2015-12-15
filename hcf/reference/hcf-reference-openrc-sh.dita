@@ -2,9 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="hcf-reference-openrc-sh">
   <title>OpenStack Variables</title>
-  <shortdesc>You must load a number of OpenStack environment variables in order to run
-      <codeph>neutron</codeph> and <codeph>nova</codeph> CLI commands to create your sandbox
-    environment.</shortdesc>
+  <shortdesc>You must load a number of OpenStack environment variables in order to create your
+    sandbox environment.</shortdesc>
   <prolog>
     <metadata>
       <othermeta name="author" content="Michael Khmelnitsky"/>

@@ -4,12 +4,10 @@
   <title><keyword keyref="prodShort"/> Roles</title>
   <shortdesc/>
   <refbody>
-    <refsyn>Roles are the components of <keyword keyref="prodShort"/>. You can <xref
-        href="hcf-reference-gato.dita#reference_cd3_bs3_rt/config_get">manipulate the values of
-        these components</xref> using the <codeph><keyword keyref="adminUtilCLI"/></codeph>
-      Command-Line Interface (CLI) administration utility. To run <codeph><keyword
-          keyref="adminUtilCLI"/></codeph> commands you must <codeph>ssh</codeph> into any <keyword
-        keyref="prodShort"/> node.</refsyn>
+    <refsyn>Roles are the components of <keyword keyref="prodShort"/>. You can manipulate the values
+      of these components using the <codeph><keyword keyref="adminUtilCLI"/></codeph> CLI
+      administration utility. To run <codeph><keyword keyref="adminUtilCLI"/></codeph> commands you
+      must <codeph>ssh</codeph> into any <keyword keyref="prodShort"/> node.</refsyn>
     <table frame="all" rowsep="1" colsep="1" id="table_d1m_bbn_g5">
       <tgroup cols="2">
         <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -24,26 +22,26 @@
           <row>
             <entry><codeph>api</codeph><draft-comment author="michaelk">process (job) =
                 cloud_controller_ng</draft-comment></entry>
-            <entry>The Cloud Controller provides the primary Cloud Foundry API to the Cloud Foundry
-              command-line interface (CLI). The Cloud Controller uses a database to keep tables for
+            <entry>The Cloud Controller provides the primary Cloud Foundry API to the
+                <codeph>cf</codeph> CLI. The Cloud Controller uses a database to keep tables for
               organizations, spaces, applications, services, service instances, user roles, and so
               on. Typically, multiple instances of Cloud Controller are load-balanced.</entry>
           </row>
           <row>
             <entry><codeph>api_worker</codeph><draft-comment author="michaelk">process (job) =
                 cloud_controller_worker</draft-comment></entry>
-            <entry>The Cloud Controller worker processes background tasks.</entry>
+            <entry>The Cloud Controller Worker processes background tasks.</entry>
           </row>
           <row>
             <entry><codeph>clock_global</codeph><draft-comment author="michaelk">process (job) =
                 cloud_controller_clock</draft-comment></entry>
-            <entry>The Cloud Controller clock periodically schedules Cloud Controller clean-up tasks
+            <entry>The Cloud Controller Clock periodically schedules Cloud Controller clean-up tasks
               for application usage events, audit events, failed jobs, and so on. </entry>
           </row>
           <row>
             <entry><codeph>consul</codeph></entry>
-            <entry>Consul discovers and configures services in an infrastructure. It provides
-              service discovery, health checking, and key-value storage. Consul supports multiple
+            <entry>Consul discovers and configures services in an infrastructure, providing service
+              discovery, health checking, and key-value storage. Consul supports multiple
               datacenters.</entry>
           </row>
           <row>
@@ -54,7 +52,7 @@
           </row>
           <row>
             <entry><codeph>etcd</codeph></entry>
-            <entry>etcd provides shared configuration and service discovery and acts as a
+            <entry>Etcd provides shared configuration and service discovery and acts as a
               distributed, consistent key-value backing store for Loggregator, containing data such
               as drain information.</entry>
           </row>
@@ -65,8 +63,8 @@
           <row>
             <entry><codeph>hm9000</codeph></entry>
             <entry>Health Manager 9000 (HM9000) periodically compares the list of expected running
-              applications, as specified by the Cloud Controller, against a list of actually running
-              applications, as reported by the DEAs. HM9000 attempts to reconcile any differences
+              applications (as specified by the Cloud Controller) against a list of actually running
+              applications (as reported by the DEAs). HM9000 attempts to reconcile any differences
               between the two lists.</entry>
           </row>
           <row>

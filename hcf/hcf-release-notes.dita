@@ -12,6 +12,6 @@
   <p>This is the first release of <keyword keyref="prodLong"/>. For information on features and
    functionality, see <xref href="hcf-whats-new.dita#concept_uvz_1cx_tt"/>.</p>
   <draft-comment author="michaelk">The following are release notes for <keyword keyref="prodLong"/>
-   released in <varname>&lt;DATE></varname>.</draft-comment>
+   released in <varname>&lt;date></varname>.</draft-comment>
  </conbody>
 </concept>

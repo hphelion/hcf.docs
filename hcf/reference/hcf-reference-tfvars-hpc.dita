@@ -5,7 +5,7 @@
   <shortdesc>You must configure a number of <codeph>terraform</codeph> variables in order to create
     a <keyword keyref="prodShort"/> cluster. You can configure the values of these variables in your
       <codeph>tfvars</codeph> file using the <codeph>overrides.tfvars.sample</codeph> file included
-    with <keyword keyref="prodLong"/> as an example.</shortdesc>
+    with <keyword keyref="prodLong"/>.</shortdesc>
   <prolog>
     <metadata>
       <othermeta name="author" content="Michael Khmelnitsky"/>
@@ -42,7 +42,7 @@
           </row>
           <row>
             <entry><codeph>dea_count</codeph></entry>
-            <entry>The number of Droplet Execution Agent (DEA) hosts that you want to create</entry>
+            <entry>The number of Droplet Execution Agent (DEA) nodes that you want to create</entry>
             <entry/>
           </row>
           <row>
@@ -54,7 +54,7 @@
           </row>
           <row>
             <entry><codeph>openstack_availability_zone</codeph></entry>
-            <entry>The unique regional location on which your cluster is launched</entry>
+            <entry>The unique regional location in which your cluster is launched</entry>
             <entry>The default value is <codeph>az1</codeph>.</entry>
           </row>
           <row>
