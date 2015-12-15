@@ -18,35 +18,12 @@
               <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep4_"/></p><p>5.
               <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep5_"/></p>6.
               <b><keyword keyref="quickStartHPcloudStep6"/></b></stentry>
-       <stentry><b id="connecting_to_your_cluster">Connecting to Your Cluster</b><p>To administer
-            and troubleshoot your cluster, you can connect to it using <codeph>ssh</codeph> and then
-            run <keyword keyref="adminUtil"/> commands. To connect, specify the IP address of your
-              <keyword keyref="prodShort"/> public-facing node and the location of your RSA private
-            key, for
-            example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock></p><note
-            type="note">For more information, see the <xref
-              href="../../reference/hcf-reference-gato.dita"/>.</note><b>To Terminate Nodes and
-            Security Groups from <keyword keyref="pubCloudShort"/></b><p>Using <keyword
-              keyref="pubCloudShort"/> to terminate instances or security groups is not recommended.
-            Use the following steps only if you run into difficulties with Terraform.</p><ol
-            id="ol_zqt_ld3_tt">
-            <li>Log into <xref href="https://horizon.hpcloud.com/" format="html" scope="external"
-                  ><keyword keyref="pubCloudShort"/></xref>.</li>
-            <li>Click <menucascade>
-                <uicontrol>Project</uicontrol>
-                <uicontrol>Compute</uicontrol>
-                <uicontrol>Instances</uicontrol>
-              </menucascade>.</li>
-            <li>Click the checkbox next to a node, for example <uicontrol>hcf-core</uicontrol>.</li>
-            <li>Click <uicontrol>Terminate Instances</uicontrol>.</li>
-            <li>Click <menucascade>
-                <uicontrol>Project</uicontrol>
-                <uicontrol>Compute</uicontrol>
-                <uicontrol>Access and Security</uicontrol>
-              </menucascade>.</li>
-            <li>Click the checkbox next to a security group, for example
-                <uicontrol>hcf-container-host</uicontrol>.</li>
-            <li>Click <uicontrol>Delete Security Groups</uicontrol>.</li>
+       <stentry><b id="connecting_to_your_cluster">Connecting to Your Cluster</b><p
+            conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/connecting-cluster"/><b>To
+            Terminate Nodes and Security Groups from <keyword keyref="pubCloudShort"/></b><ol
+            conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/terminate-nodes-secgroups"
+            id="ol_dhy_s14_35">
+            <li/>
           </ol></stentry>
      </strow>
    </simpletable>
