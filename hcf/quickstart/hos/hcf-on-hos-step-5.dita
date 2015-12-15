@@ -34,14 +34,14 @@
                 <thead>
                   <row>
                     <entry>Cloud Foundry Applications</entry>
-                    <entry>Helion Stackato Applications</entry>
+                    <entry>Helion Development Platform Applications</entry>
                   </row>
                 </thead>
                 <tbody>
                   <row>
                     <entry>You can push the same Cloud Foundry-native application written in various
                       programming languages to <keyword keyref="prodShort"/>.<p>The following
-                        application matches ping-ping players with each other.</p><ul
+                        application matches ping-ping players with each other:</p><ul
                         id="ul_sty_3zn_35">
                         <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_go"
                             format="html" scope="external">pong_matcher_go</xref> (Go)</li>
@@ -55,21 +55,23 @@
                         <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_ruby"
                             format="html" scope="external">pong_matcher_ruby</xref> (Ruby)</li>
                       </ul></entry>
-                    <entry>You can also push a variety of non-Cloud Foundry applications to <keyword
+                    <entry>You can also push various non-Cloud Foundry applications to <keyword
                         keyref="prodShort"/>. <p>The following applications output environment
-                        variables.</p><ul id="ul_bfs_xzn_35">
-                        <li><xref href="https://github.com/Stackato-Apps/go-env" format="html"
-                            scope="external">go-env</xref> (Go)</li>
-                        <li><xref href="https://github.com/Stackato-Apps/node-env" format="html"
-                            scope="external">node-env</xref> (Node.js)</li>
-                        <li><xref href="https://github.com/Stackato-Apps/phpinfo" format="html"
-                            scope="external">phpinfo</xref> (PHP)</li>
-                        <li><xref href="https://github.com/hpcloud/python-env" format="html"
-                            scope="external">python-env</xref> (Python)</li>
-                        <li><xref href="https://github.com/Stackato-Apps/sinatra-env" format="html"
-                            scope="external">sinatra-env</xref> (Ruby)<note>Use the
-                              <codeph>CF</codeph> branch. After you push the application, append
-                              <codeph>/get</codeph> to its endpoint URL.</note></li>
+                          variables:<ul id="ul_bmz_1js_35">
+                          <li><xref href="https://github.com/HelionDevPlatform/go-env" format="html"
+                              scope="external">go-env</xref> (Go)</li>
+                          <li><xref href="https://github.com/HelionDevPlatform/node-env"
+                              format="html" scope="external">node-env</xref> (Node.js)</li>
+                          <li><xref href="https://github.com/HelionDevPlatform/phpinfo"
+                              format="html" scope="external">phpinfo</xref> (PHP)</li>
+                        </ul></p><p>The following starter applications demonstrate application
+                        design:</p><ul id="ul_bfs_xzn_35">
+                        <li><xref href="https://github.com/HelionDevPlatform/java-starter-app"
+                            format="html" scope="external">java-starter-app</xref> (Java)</li>
+                        <li><xref href="https://github.com/HelionDevPlatform/python-starter-app"
+                            format="html" scope="external">python-starter-app</xref> (Python)</li>
+                        <li><xref href="https://github.com/HelionDevPlatform/ruby-starter-app"
+                            format="html" scope="external">ruby-starter-app</xref> (Ruby)</li>
                       </ul></entry>
                   </row>
                 </tbody>
