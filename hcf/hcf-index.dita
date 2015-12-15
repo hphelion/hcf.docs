@@ -33,13 +33,7 @@
           <li><xref href="quickstart/hos/hcf-on-hos.dita#cfr_hos_quickstart"/><ul id="ul_n4b_zn3_h5">
               <li><xref href="quickstart/hos/hcf-on-hos-step-1.dita#concept_s2k_b35_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st"/></li>
-              <li><xref href="quickstart/hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st"/><ul
-                  id="ul_o4b_zn3_h5">
-                  <li><xref href="quickstart/hos/hcf-on-hos-step-3.1.dita#hcf-on-hos-step-3.1"
-                    /></li>
-                  <li><xref href="quickstart/hos/hcf-on-hos-step-3.2.dita#hcf-on-hos-step-3.2"
-                    /></li>
-                </ul></li>
+              <li><xref href="quickstart/hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt"/></li>
