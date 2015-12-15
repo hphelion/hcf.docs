@@ -25,8 +25,9 @@
            conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep4_"/></p><p>5. <b><keyword
         keyref="quickStartHOSstep5" id="quickStartHOSstep5"/></b></p>6. <xref
           conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
-     <stentry><b>Sample Applications</b><p id="sample-apps">The following sample applications will get your started
-      with the <codeph>cf push</codeph> workflow:<table frame="all" rowsep="1" colsep="1">
+     <stentry><b>Sample Applications</b><p id="sample-apps">The following sample applications will
+            get your started with the <codeph>cf push</codeph> workflow:<table frame="all"
+              rowsep="1" colsep="1">
               <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -74,12 +75,12 @@
                 </tbody>
               </tgroup>
             </table></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
-            <li>Ensure that you are targeting the desired cluster, for
+            <li id="prepare-push-target">Ensure that you are targeting the desired cluster, for
                 example:<codeblock id="target_cluster">cf api https://api.203.0.113.0.xip.io</codeblock><note>To
                 skip SSL validation, add the <codeph>--skip-ssl-validation</codeph> option to your
                 command. If you cannot connect to your cluster, ensure that your connection has no
                 proxy settings.</note></li>
-            <li>Ensure that you are logged into the desired
+            <li id="prepare-push-login">Ensure that you are logged into the desired
                 cluster:<codeblock>cf login</codeblock><p id="user_pass">When prompted, enter your
                 username (email) and password.</p></li>
             <li>If you are behind a proxy, set the proxy environment for your applications, for
@@ -95,22 +96,23 @@
 'https_proxy':'http://proxy.example.com:8080', \
 'HTTP_PROXY':'http://proxy.example.com:8080', \
 'HTTPS_PROXY':'http://proxy.example.com:8080'}"</codeblock></li>
-            <li>Create and target an
+            <li id="create-target-org">Create and target an
               organization:<codeblock>cf create-org <varname>&lt;organization></varname>
 cf target -o <varname>&lt;organization></varname></codeblock></li>
-            <li>Create a space, attach it to your organization, and target
+            <li id="create-space-attach-target">Create a space, attach it to your organization, and
+              target
                 it:<codeblock>cf create-space <varname>&lt;space></varname> -o <varname>&lt;organization></varname>
 cf target -o <varname>&lt;organization></varname> -s <varname>&lt;space></varname></codeblock><note
-                type="tip">To save time, you can add all of the commands to a batch file or shell
-                script, for
+                type="tip">To save time, you can add all of the commands to a shell script or batch
+                file, for
                 example:<codeblock>cf api https://api.203.0.113.0.xip.io --skip-ssl-validation
 cf login
 cf create-org myOrg
 cf target -o myOrg
 cf create-space mySpace -o myOrg
 cf target -o myOrg -s mySpace</codeblock></note></li>
-          </ol><b>To Clone a GitHub Application and Push it to Your Cluster</b><ol
-            id="ol_idl_1mw_tt">
+          </ol><b>To Push a GitHub Application to <keyword keyref="prodShort"/></b><ol
+            id="push-github-app">
             <li><codeph>git clone</codeph> the application and ensure that the
                 <codeph>manifest.yml</codeph> file in the application directory is configured
                 correctly.<note>For more information, see the Cloud Foundry documentation on <xref
