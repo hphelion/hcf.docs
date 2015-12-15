@@ -28,24 +28,23 @@
                         example:<codeblock>ssh ubuntu@203.0.113.0 -i ~/.ssh/myPrivateKey.pem</codeblock></p><b>To
                         Terminate Nodes and Security Groups from <keyword keyref="opnStckShort"
                         /></b><ol id="terminate-nodes-secgroups">
-                        <li>Log into <xref href="https://horizon.hpcloud.com/" format="html"
-                                scope="external"><keyword keyref="opnStckShort"/></xref>.</li>
-                        <li>Click <menucascade>
-                                <uicontrol>Project</uicontrol>
-                                <uicontrol>Compute</uicontrol>
-                                <uicontrol>Instances</uicontrol>
-                            </menucascade>.</li>
-                        <li>Click the checkbox next to a node, for example
-                                <uicontrol>hcf-core</uicontrol>.</li>
-                        <li>Click <uicontrol>Terminate Instances</uicontrol>.</li>
-                        <li>Click <menucascade>
-                                <uicontrol>Project</uicontrol>
-                                <uicontrol>Compute</uicontrol>
-                                <uicontrol>Access and Security</uicontrol>
-                            </menucascade>.</li>
-                        <li>Click the checkbox next to a security group, for example
-                                <uicontrol>hcf-container-host</uicontrol>.</li>
-                        <li>Click <uicontrol>Delete Security Groups</uicontrol>.</li>
+                        <li>Log into <keyword keyref="opnStckShort"/>.</li>
+                        <li id="hos-t2">Click <menucascade>
+                                                  <uicontrol>Project</uicontrol>
+                                                  <uicontrol>Compute</uicontrol>
+                                                  <uicontrol>Instances</uicontrol>
+                                                  </menucascade>.</li>
+                        <li id="hos-t3">Click the checkbox next to a node, for example
+                                                  <uicontrol>hcf-core</uicontrol>.</li>
+                        <li id="hos-t4">Click <uicontrol>Terminate Instances</uicontrol>.</li>
+                        <li id="hos-t5">Click <menucascade>
+                                                  <uicontrol>Project</uicontrol>
+                                                  <uicontrol>Compute</uicontrol>
+                                                  <uicontrol>Access and Security</uicontrol>
+                                                  </menucascade>.</li>
+                        <li id="hos-t6">Click the checkbox next to a security group, for example
+                                                  <uicontrol>hcf-container-host</uicontrol>.</li>
+                        <li id="hos-t7">Click <uicontrol>Delete Security Groups</uicontrol>.</li>
                     </ol></stentry>
    </strow>
   </simpletable>

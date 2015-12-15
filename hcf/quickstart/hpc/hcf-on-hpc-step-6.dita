@@ -21,9 +21,15 @@
        <stentry><b id="connecting_to_your_cluster">Connecting to Your Cluster</b><p
             conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/connecting-cluster"/><b>To
             Terminate Nodes and Security Groups from <keyword keyref="pubCloudShort"/></b><ol
-            conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/terminate-nodes-secgroups"
-            id="ol_dhy_s14_35">
-            <li/>
+            id="ol_i5w_zks_35">
+            <li>Log into <xref href="https://horizon.hpcloud.com/" format="html" scope="external"
+                  ><keyword keyref="pubCloudShort"/></xref>.</li>
+            <li conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/hos-t2"/>
+            <li conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/hos-t3"/>
+            <li conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/hos-t4"/>
+            <li conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/hos-t5"/>
+            <li conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/hos-t6"/>
+            <li conref="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt/hos-t7"/>
           </ol></stentry>
      </strow>
    </simpletable>
