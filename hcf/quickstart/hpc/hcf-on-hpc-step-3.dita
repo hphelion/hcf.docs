@@ -22,9 +22,7 @@
     <stentry>
           <b>To Create a Sandbox Environment</b><ol id="ol_ur4_yq1_tt">
             <li>Log into <xref href="https://horizon.hpcloud.com/" format="html" scope="external"
-                  ><keyword keyref="pubCloudShort"/></xref> with the username and password that you
-              created <xref href="hcf-on-hpc-step-1.dita#concept_s2k_b35_st">during
-                registration</xref>.</li>
+                  ><keyword keyref="pubCloudShort"/></xref>.</li>
             <li id="create_a_network">Create a network.<ol id="ol_xvb_qyp_tt">
                 <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-a"/>
                 <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-b"/>
