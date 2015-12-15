@@ -24,9 +24,13 @@
               directory.</li>
             <li>Navigate to the directory.<ul id="ul_pfk_2ml_35">
                 <li>If you do not connect through a proxy, use the files in
-                    <codeph>/direct_internet</codeph></li>
+                    <codeph>/direct_internet</codeph> and omit the <codeph>http_proxy</codeph> and
+                    <codeph>https_proxy</codeph> variables from your <codeph>tfvars</codeph>
+                  file.</li>
                 <li>If you connect through a proxy, use the files in
-                    <codeph>/proxied_internet</codeph></li>
+                    <codeph>/proxied_internet</codeph> and specify the proxy for the
+                    <codeph>http_proxy</codeph> and <codeph>https_proxy</codeph> variables in your
+                    <codeph>tfvars</codeph> file.</li>
               </ul></li>
             <li id="hos-d3">Make a copy of the <codeph>overrides.tfvars.sample</codeph> file, for
               example <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file will
