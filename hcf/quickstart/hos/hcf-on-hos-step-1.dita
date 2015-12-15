@@ -31,10 +31,10 @@
         specifications for a minimal installation with a single Droplet Execution Agent (DEA):<ul
          id="ul_zk4_tpl_35">
          <li>12GB available RAM</li>
-         <li>2 available instances</li>
-         <li>1 available security group</li>
-         <li>1 available floating IP</li>
-         <li>1 40 GB volume</li>
+         <li>Two available instances</li>
+         <li>One available security group</li>
+         <li>One available floating IP</li>
+         <li>One 40 GB volume</li>
         </ul></li>
        <li>A Ubuntu 14.04.3 base image in the <keyword keyref="opnStckShort"/> environment</li>
        <li>A system that has visibility to the tenant (you will <xref

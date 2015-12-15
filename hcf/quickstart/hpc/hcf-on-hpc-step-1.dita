@@ -30,10 +30,10 @@
       specifications for a minimal installation with a single Droplet Execution Agent (DEA):<ul
        id="ul_sdz_zpl_35">
        <li>12GB available RAM</li>
-       <li>2 available instances</li>
-       <li>1 available security group</li>
-       <li>1 available floating IP</li>
-       <li>1 40 GB volume</li>
+       <li>Two available instances</li>
+       <li>One available security group</li>
+       <li>One available floating IP</li>
+       <li>One 40 GB volume</li>
       </ul></p><note type="tip">Keep your username and password handy. You will need them to <xref
        href="hcf-on-hpc-step-3.dita#concept_kpg_fhz_st">create a sandbox
       environment</xref>.</note><xref href="hcf-on-hpc-step-2.dita#concept_ikh_xgz_st">
