@@ -14,7 +14,7 @@
   <refbody>
     <table frame="all" rowsep="1" colsep="1" id="table_fjz_c3c">
       <desc>
-        <note type="warning" id="warning-hpc">If you configure any variables other than those
+        <note type="important" id="warning-hpc">If you configure any variables other than those
           specified in the <filepath>overrides.tfvars.sample</filepath> file, the cluster creation
           process may fail.</note>
         <note type="important">All values are required. Except for <codeph>dea_count</codeph>,
