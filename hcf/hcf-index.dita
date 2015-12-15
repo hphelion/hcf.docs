@@ -13,7 +13,7 @@
   </prolog>
   <conbody>
     <p><keyword keyref="prodLong"/> Technical Preview (TP) <keyword keyref="prodVerLong"/> is a
-      certified distribution of <xref href="http://www.cloudfoundry.org/" format="html"
+      certified distribution of <xref href="https://www.cloudfoundry.org/" format="html"
         scope="external">Cloud Foundry</xref> (<xref
         href="https://github.com/cloudfoundry/cf-release/releases/tag/v217" format="html"
         scope="external">cf-release v217</xref>). Instead of deploying virtual machines, <keyword

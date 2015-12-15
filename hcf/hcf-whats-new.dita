@@ -26,10 +26,10 @@
        href="http://www8.hp.com/us/en/cloud/helion-devplatform-overview.html" format="html"
        scope="external">HPE Helion Stackato</xref> or with the <xref
        href="http://dev.hpcloud.com/hdp/" format="html" scope="external">HPE Helion Development
-       Platform</xref> before, <keyword keyref="prodShort"/> will allow you to work with
-        <codeph><keyword keyref="adminUtilCLI"/></codeph>, a new command-line administration utility
-      that shares some functionality with <codeph>kato</codeph>. For more information, see the <xref
-       href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/>.</dd>
+       Platform</xref> before, <keyword keyref="prodShort"/> will allow you to work with <xref
+       href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"><codeph><keyword
+         keyref="adminUtilCLI"/></codeph></xref>, a new command-line administration utility that
+      shares some functionality with <codeph>kato</codeph>. </dd>
     </dlentry>
    </dl>
   </section>

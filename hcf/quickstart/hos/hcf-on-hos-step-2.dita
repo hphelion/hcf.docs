@@ -20,24 +20,18 @@
            conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep5_"/></p>6. <xref
              conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
     <stentry><note type="important" id="tools-path">Ensure that all tools are added to your
-              <codeph>PATH</codeph> environment variable. To set the variable on Linux and Mac OS X,
-              <xref
-              href="http://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux"
-              format="html" scope="external">see this page</xref>. To set it on Windows, <xref
-              href="http://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows"
-              format="html" scope="external">see this page</xref>.</note><b id="tools-hcf"><keyword
+              <codeph>PATH</codeph> environment variable.</note><b id="tools-hcf"><keyword
               keyref="prodLong"/></b><p id="tools-hcf-download"><xref
               href="https://helion.hpwsportal.com/catalog.html#/Category/%7B%22categoryId%22%3A10604%7D/Show"
               format="html" scope="external"><keyword keyref="prodShort"/></xref>
-            <keyword keyref="prodVerLong"/> allows you to push application code to the server, to
+            <keyword keyref="prodVerLong"/> allows you to push application code to a server, to
             start and stop applications, and to perform other application management
             operations.</p><note id="tools-hcf-download-note"><keyword keyref="prodShort"/> can be
             deployed on Linux, Mac OS X, and Windows.</note><b id="tools-terraform">Terraform
-            CLI</b><p id="tools-terraform-download">The <xref
-              href="https://terraform.io/downloads.html" format="html" scope="external"
-                ><codeph>terraform</codeph> CLI</xref> (0.6.8 and higher) allows you to construct,
-            manage, update, or delete <keyword keyref="prodShort"/> clusters.</p><b id="tools-cf"
-            >Cloud Foundry CLI</b><p id="tools-cf-download">The <xref
+            CLI</b><p id="tools-terraform-download"><xref href="https://terraform.io/downloads.html"
+              format="html" scope="external"><codeph>terraform</codeph> CLI</xref> (0.6.8 and
+            higher) allows you to construct, manage, update, or delete <keyword keyref="prodShort"/>
+            clusters.</p><b id="tools-cf">Cloud Foundry CLI</b><p id="tools-cf-download"><xref
               href="https://github.com/cloudfoundry/cli#downloads" format="html" scope="external"
                 ><codeph>cf</codeph> CLI</xref> allows you to deploy and manage your
             applications.</p><b>(Optional) OpenStack CLIs</b><p>You can troubleshoot your tenant's

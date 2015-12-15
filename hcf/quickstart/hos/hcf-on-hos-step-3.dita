@@ -27,15 +27,15 @@
                     <uicontrol>Project</uicontrol>
                     <uicontrol>Network</uicontrol>
                     <uicontrol>Networks</uicontrol>
-                  </menucascade> and then click <uicontrol>Create Network</uicontrol> on the
-                  right.</li>
+                  </menucascade> and then on the right click <uicontrol>Create
+                  Network</uicontrol>.</li>
                 <li id="hos-2-b">On the <uicontrol>Create Network</uicontrol> dialog box, enter a
                     <uicontrol>Network Name</uicontrol> and click <uicontrol>Next</uicontrol>.</li>
-                <li id="hos-2-c">Enter a <uicontrol>Subnet Name</uicontrol>, a <uicontrol>Network
-                    Address</uicontrol> (for example, <codeph>10.0.0.0/24</codeph>), and click
+                <li id="hos-2-c">Enter a <uicontrol>Subnet Name</uicontrol> and a <uicontrol>Network
+                    Address</uicontrol> (for example, <codeph>10.0.0.0/24</codeph>) and click
                     <uicontrol>Next</uicontrol>.</li>
                 <li id="hos-2-d">Enter <uicontrol>Allocation Pools</uicontrol> (for example,
-                    <codeph>10.0.0.2,10.0.0.254</codeph>), and click
+                    <codeph>10.0.0.2,10.0.0.254</codeph>) and click
                   <uicontrol>Create</uicontrol>.</li>
                 <li id="hos-2-e">To find the network ID, click the name of your network. <note
                     type="tip">You will need the network ID to configure your
@@ -52,17 +52,16 @@
                     <uicontrol>Project</uicontrol>
                     <uicontrol>Network</uicontrol>
                     <uicontrol>Routers</uicontrol>
-                  </menucascade> and then click <uicontrol>Create Router</uicontrol> on the
-                  right.</li>
+                  </menucascade> and then on the right click <uicontrol>Create
+                  Router</uicontrol>.</li>
                 <li>On the <uicontrol>Create Router</uicontrol> dialog box, enter a router name and
                   click <uicontrol>Create Router</uicontrol>.</li>
                 <li>To connect your router to the external network (Ext-Net), click <uicontrol>Set
                     Gateway</uicontrol> in the <uicontrol>Actions</uicontrol> column of your
                   router's row.</li>
-                <li>On the <uicontrol>Set Gateway</uicontrol> dialog box, from the
-                    <uicontrol>External Network</uicontrol> drop-down list, select
-                    <uicontrol>Ext-Net</uicontrol> and click <uicontrol>Set
-                  Gateway</uicontrol>.</li>
+                <li>On the <uicontrol>Set Gateway</uicontrol> dialog box, select
+                    <uicontrol>Ext-Net</uicontrol> from the <uicontrol>External Network</uicontrol>
+                  drop-down list and click <uicontrol>Set Gateway</uicontrol>.</li>
               </ol></li>
             <li id="hos-4">Create an interface.<ol id="ol_uvc_3zp_tt">
                 <li>On the left panel, click <menucascade>
@@ -98,11 +97,11 @@
                 <uicontrol>Compute</uicontrol>
                 <uicontrol>Access and Security</uicontrol>
               </menucascade>.</li>
-            <li>Click the <uicontrol>API Access</uicontrol> tabs and then click <uicontrol>Download
-                OpenStack RC File</uicontrol> on the right.<note>The <codeph>openrc.sh</codeph> file
-                contains information about the hosted service, including region, tenant, and other
-                information required to create a cluster. This file is pre-configured for your
-                sandbox environment.</note></li>
+            <li>Click the <uicontrol>API Access</uicontrol> tabs and then on the right click
+                <uicontrol>Download OpenStack RC File</uicontrol>.<note>The
+                  <codeph>openrc.sh</codeph> file contains information about the hosted service,
+                including region, tenant, and other information required to create a cluster. This
+                file is pre-configured for your sandbox environment.</note></li>
             <li id="create_a_key_pair">Create a key pair.<ol id="ol_hlp_1v1_tt">
                 <li>Click <menucascade>
                     <uicontrol>Project</uicontrol>
