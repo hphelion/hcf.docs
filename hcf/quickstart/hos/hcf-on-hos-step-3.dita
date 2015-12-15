@@ -87,8 +87,8 @@
                 <uicontrol>Networks</uicontrol>
               </menucascade> and then click the name of your network.<note type="tip">You will need
                 the network ID to <xref
-                  href="../../reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt">configure
-                  your <codeph>tfvars</codeph> file</xref> and to <xref
+                  href="../../reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt"
+                  >configure your <codeph>tfvars</codeph> file</xref> and to <xref
                   href="hcf-on-hos-step-4.dita#concept_pqc_jhz_st/run_terraform_command">run
                   terraform commands.</xref></note></li>
             <li>Ensure that you have at least 12GB of RAM.<p>To view your current limits, click <menucascade>
@@ -129,9 +129,9 @@
                   href="../../reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt">the
                     <codeph>tfvars</codeph> file in which it is specified</xref>. For convenience,
                 you can place the two files into the same directory.</note></li>
-          </ol><b>To Load Variables from Your <codeph>openrc.sh</codeph> File</b><p>Add the
-            variables from the <codeph>openrc.sh</codeph> file that you have downloaded earlier to
-            your terminal session.</p><ul id="ul_d4f_csg_h5">
+          </ol><b id="authenticate-openrc">To Load Variables from Your <codeph>openrc.sh</codeph>
+            File</b><p>Add the variables from the <codeph>openrc.sh</codeph> file that you have
+            downloaded earlier to your terminal session.</p><ul id="ul_d4f_csg_h5">
             <li>On Linux or Mac OS X:<ol id="ol_gj3_csg_h5">
                 <li>Navigate to the directory that contains the <codeph>sh</codeph> file and
                     <codeph>source</codeph> the file, for
