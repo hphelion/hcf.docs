@@ -20,35 +20,41 @@
               conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep5_"/></p>6. <xref
             conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
     <stentry><b>To Deploy <keyword keyref="prodShort"/></b><ol id="ol_p2k_vx1_tt">
-            <li>Decompress the <keyword keyref="prodShort"/> archive into a convenient
+            <li id="hos-d1">Decompress the <keyword keyref="prodShort"/> archive into a convenient
               directory.</li>
-            <li>Navigate to the <codeph>/direct_internet</codeph> directory.</li>
-            <li>Navigate to the <keyword keyref="prodShort"/> directory and make a copy of the
-                <codeph>overrides.tfvars.sample</codeph> file, for example
-                <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file will contain
-                the keys and credentials for your cluster.</note></li>
-            <li>Add variables to your <codeph>tfvars</codeph> file. For more information and
-              examples, see <xref
+            <li>Navigate to the directory.<ul id="ul_pfk_2ml_35">
+                <li>If you do not connect through a proxy, use the files in
+                    <codeph>/direct_internet</codeph></li>
+                <li>If you connect through a proxy, use the files in
+                    <codeph>/proxied_internet</codeph></li>
+              </ul></li>
+            <li id="hos-d3">Make a copy of the <codeph>overrides.tfvars.sample</codeph> file, for
+              example <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file will
+                contain the keys and credentials for your cluster.</note></li>
+            <li id="hos-d4">Add variables to your <codeph>tfvars</codeph> file. For more information
+              and examples, see <xref
                 href="../../reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt">Terraform
                 Variables</xref>.<note
                 conref="../../reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt/warning-hos"
               /></li>
-            <li id="run_terraform_command">Run the following
-                command:<codeblock>terraform apply -var-file=<varname>&lt;myVariables></varname>.tfvars</codeblock><note
-                type="tip">To improve console output on Windows, add the <codeph>-no-color</codeph>
-                flag to your command. For more information, see the Terraform documentation on <xref
+            <li id="run_terraform_command">Apply the Terraform variables, for
+                example:<codeblock>terraform apply -var-file=myVars.tfvars</codeblock><note
+                type="tip" id="nocolor">To improve console output on Windows, add the
+                  <codeph>-no-color</codeph> flag to your command. For more information, see the
+                Terraform documentation on <xref
                   href="https://terraform.io/docs/commands/apply.html" format="html"
                   scope="external">Command: Apply</xref>.</note></li>
-          </ol>Terraform creates the necessary nodes and security groups and saves the state of your
-          infrastructure to <codeph>terraform.tfstate</codeph>.<note type="tip">At the end of the
-            process, Terraform displays the URL of the <keyword keyref="prodShort"/> core, formatted
-            using the xip.io wildcard DNS, for
-            example:<codeblock>api_endpoint = http://api.203.0.113.0.xip.io</codeblock>You will need
-            this URL to use the Cloud Foundry CLI. You can also run the <codeph>terraform
-              show</codeph> command to see detailed information about the core.</note><b>Exploring
-            the <keyword keyref="prodShort"/> Public-Facing Node</b><p>After <keyword
-              keyref="prodShort"/> is deployed on <keyword keyref="opnStckShort"/>, you can view its
-            nodes and security groups:</p><ul id="ul_rqs_v43_tt">
+          </ol><p id="postcreation">Terraform creates the necessary nodes and security groups and
+            saves the state of your infrastructure to <codeph>terraform.tfstate</codeph>.<note
+              type="tip">At the end of the process, Terraform displays the URL of the <keyword
+                keyref="prodShort"/> core, formatted using the xip.io wildcard DNS, for
+              example:<codeblock>api_endpoint = https://api.203.0.113.0.xip.io</codeblock>You will
+              need this URL to use the Cloud Foundry CLI. You can also run the <codeph>terraform
+                show</codeph> command to see detailed information about the
+            core.</note></p><b>Exploring the <keyword keyref="prodShort"/> Deployment</b><p
+            id="exploring-hcf">After <keyword keyref="prodShort"/> is deployed on <keyword
+              keyref="opnStckShort"/>, you can view its nodes and security groups:</p><ul
+            id="exploring-view-nodes-secgroups">
             <li>To view the nodes, click <menucascade>
                 <uicontrol>Project</uicontrol>
                 <uicontrol>Compute</uicontrol>

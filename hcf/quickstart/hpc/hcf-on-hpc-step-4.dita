@@ -20,54 +20,22 @@
               conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep5_"/></p>6. <xref
             conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep6_"/></stentry>
     <stentry><b>To Deploy <keyword keyref="prodShort"/></b><ol id="ol_p2k_vx1_tt">
-            <li>Decompress the <keyword keyref="prodShort"/> archive into a convenient
-              directory.</li>
-            <li>Navigate to the directory.<ul id="ul_pfk_2ml_35">
-                <li>If you do not connect through a proxy, use the files in
-                    <codeph>/direct_internet</codeph></li>
-                <li>If you connect through a proxy, use the files in
-                    <codeph>/proxied_internet</codeph></li>
-              </ul></li>
-            <li>Make a copy of the <codeph>overrides.tfvars.sample</codeph> file, for example
-                <codeph>myVars.tfvars</codeph>.<note>The <codeph>tfvars</codeph> file will contain
-                the keys and credentials for your cluster.</note></li>
-            <li>Add variables to your <codeph>tfvars</codeph> file. For more information and
-              examples, see <xref
-                href="../../reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc_rt">Terraform
-                Variables</xref>.<note
-                conref="../../reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc/warning-hpc"
-              /></li>
-            <li id="run_terraform_command">Run the following
-                command:<codeblock>terraform apply -var-file=<varname>&lt;myVariables></varname>.tfvars</codeblock><note>You
-                may receive the error message <msgph>Can not find requested image</msgph> if <xref
-                  href="hcf-on-hpc-step-3.dita#concept_kpg_fhz_st">the various settings of your
-                  sandbox environment</xref> are not configured consistently on US East or US
-                West.</note><note type="tip">To improve console output on Windows, add the
-                  <codeph>-no-color</codeph> flag to your command. For more information, see the
-                Terraform documentation on <xref
-                  href="https://terraform.io/docs/commands/apply.html" format="html"
-                  scope="external">Command: Apply</xref>.</note></li>
-          </ol><p>Terraform creates the necessary nodes and security groups and saves the state of
-            your infrastructure to <codeph>terraform.tfstate</codeph>.</p><note type="tip">At the
-            end of the process, Terraform displays the URL of the <keyword keyref="prodShort"/>
-            public-facing node, formatted using the xip.io wildcard DNS, for
-            example:<codeblock>api_endpoint = http://api.203.0.113.0.xip.io</codeblock>You will need
-            this URL to use the Cloud Foundry CLI. You can also run the <codeph>terraform
-              show</codeph> command to see detailed information about the public-facing
-            node.</note><b>Exploring the <keyword keyref="prodShort"/> Public-Facing
-            Node</b><p>After the <keyword keyref="prodShort"/> is deployed on <keyword
-              keyref="pubCloudShort"/>, you can view its nodes and security groups:</p><ul
-            id="ul_rqs_v43_tt">
-            <li>To view the nodes, click <menucascade>
-                <uicontrol>Project</uicontrol>
-                <uicontrol>Compute</uicontrol>
-                <uicontrol>Instances</uicontrol>
-              </menucascade>.</li>
-            <li>To view the security groups, click <menucascade>
-                <uicontrol>Project</uicontrol>
-                <uicontrol>Computer</uicontrol>
-                <uicontrol>Access and Security</uicontrol>
-              </menucascade>.</li>
+            <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d1"/>
+            <li>Navigate to the <codeph>/direct_internet</codeph> directory.</li>
+            <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d3"/>
+            <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d4"/>
+            <li id="run_terraform_command">Apply the Terraform variables, for
+                example:<codeblock>terraform apply -var-file=myVars.tfvars</codeblock><note>You may
+                receive the error message <msgph>Can not find requested image</msgph> if the various
+                settings of your sandbox environment are not configured consistently on US East or
+                US West.</note><note
+                conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/nocolor"/></li>
+          </ol><p conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/postcreation"
+            /><b>Exploring the <keyword keyref="prodShort"/> Deployment</b><p
+            conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/exploring-hcf"/><ul
+            conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/exploring-view-nodes-secgroups"
+            id="ul_jqz_ng4_35">
+            <li/>
           </ul><xref href="hcf-on-hpc-step-5.dita#concept_cw2_thz_st">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref></stentry>
