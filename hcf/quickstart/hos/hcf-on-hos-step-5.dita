@@ -25,9 +25,9 @@
            conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep4_"/></p><p>5. <b><keyword
         keyref="quickStartHOSstep5" id="quickStartHOSstep5"/></b></p>6. <xref
           conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
-     <stentry><b>Sample Applications</b><p id="sample-apps">The following sample applications will
-            get your started with the <codeph>cf push</codeph> workflow:<table frame="all"
-              rowsep="1" colsep="1">
+     <stentry><b>Sample Applications</b><p>The following sample applications will get your started
+            with the <codeph>cf push</codeph> workflow:</p><p id="sample-apps">
+            <table frame="all" rowsep="1" colsep="1">
               <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -74,7 +74,8 @@
                   </row>
                 </tbody>
               </tgroup>
-            </table></p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
+            </table>
+          </p><b>To Prepare for Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
             <li id="prepare-push-target">Ensure that you are targeting the desired cluster, for
                 example:<codeblock id="target_cluster">cf api https://api.203.0.113.0.xip.io</codeblock><note>To
                 skip SSL validation, add the <codeph>--skip-ssl-validation</codeph> option to your

@@ -3,7 +3,8 @@
 <concept id="concept_qlr_s3c_nt">
   <title><keyword keyref="prodLong"/>
     <keyword keyref="prodVerLong"/> Technical Preview: Documentation</title>
-  <titlealts><navtitle>HPE Helion Cloud Foundry 0.10.0 TP</navtitle></titlealts>
+  <titlealts><navtitle><keyword keyref="prodLong"/>
+      <keyword keyref="prodVerLong"/> TP</navtitle></titlealts>
   <shortdesc/>
   <prolog>
     <metadata>

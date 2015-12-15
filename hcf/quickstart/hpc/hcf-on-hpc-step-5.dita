@@ -26,7 +26,8 @@
               <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep4_"/></p><p>5.
                 <b><keyword keyref="quickStartHPcloudStep5" id="quickStartHPcloudStep5"/></b></p>6.
             <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep6_"/></stentry>
-    <stentry><b>Sample Applications</b><p
+    <stentry><b>Sample Applications</b><p>The following sample applications will get your started
+            with the <codeph>cf push</codeph> workflow:</p><p
             conref="../hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st/sample-apps"/><b>To Prepare for
             Pushing Your First Application</b><ol id="ol_zdy_p53_tt">
             <li conref="../hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st/prepare-push-target"/>
