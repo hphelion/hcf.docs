@@ -38,9 +38,11 @@
             conref="../hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st/push-github-app"
             id="ol_kzs_cb4_35">
             <li/>
-          </ol><xref href="hcf-on-hpc-step-6.dita#concept_m3k_bth_tt">
+          </ol>
+          <xref href="../hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
-          </xref></stentry>
+          </xref>
+        </stentry>
    </strow>
   </simpletable>
  </conbody>

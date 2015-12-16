@@ -36,9 +36,11 @@
             conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/exploring-view-nodes-secgroups"
             id="ul_jqz_ng4_35">
             <li/>
-          </ul><xref href="hcf-on-hpc-step-5.dita#concept_cw2_thz_st">
+          </ul>
+          <xref href="../hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
-          </xref></stentry>
+          </xref>
+        </stentry>
    </strow>
   </simpletable>
  </conbody>
