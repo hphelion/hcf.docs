@@ -44,13 +44,14 @@
                   <codeph>terraform</codeph> documentation on <xref
                   href="https://terraform.io/docs/commands/apply.html" format="html"
                   scope="external">Command: Apply</xref>.</note></li>
-          </ol><p id="postcreation"><codeph>terraform</codeph> creates the necessary nodes and security groups and
-            saves the state of your infrastructure to <codeph>terraform.tfstate</codeph>.<note
-              type="tip">At the end of the process, <codeph>terraform</codeph> displays the URL of
-              the <keyword keyref="prodShort"/> core, formatted using the xip.io wildcard DNS, for
-              example:<codeblock>api_endpoint = https://api.203.0.113.0.xip.io</codeblock>You will
-              need this URL to use the <codeph>cf</codeph> CLI. You can also run the
-                <codeph>terraform show</codeph> command to see detailed information about the
+          </ol><p id="postcreation"><codeph>terraform</codeph> creates the necessary nodes and
+            security groups and saves the state of your infrastructure to
+              <codeph>terraform.tfstate</codeph>. At the end of the process,
+              <codeph>terraform</codeph> displays the URL of the <keyword keyref="prodShort"/> core,
+            formatted using the xip.io wildcard DNS, for
+              example:<codeblock>api_endpoint = https://api.203.0.113.0.xip.io</codeblock><note
+              type="tip">You will need this URL to use the <codeph>cf</codeph> CLI. You can also run
+              the <codeph>terraform show</codeph> command to see detailed information about the
               core.</note></p><b>Exploring Your <keyword keyref="prodShort"/> Cluster</b><p
             id="exploring-hcf">After <keyword keyref="prodShort"/> is deployed on <keyword
               keyref="opnStckShort"/>, you can view its nodes and security groups:</p><ul

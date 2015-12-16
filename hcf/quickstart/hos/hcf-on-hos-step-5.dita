@@ -108,12 +108,12 @@ cf target -o myOrg</codeblock></li>
 cf target -o myOrg -s mySpc</codeblock><note
                 type="tip">To save time, you can add all of the commands to a shell script or batch
                 file, for
-                example:<codeblock>cf api https://api.203.0.113.0.xip.io --skip-ssl-validation
+              example:</note><codeblock>cf api https://api.203.0.113.0.xip.io --skip-ssl-validation
 cf login
 cf create-org myOrg
 cf target -o myOrg
 cf create-space mySpc -o myOrg
-cf target -o myOrg -s mySpc</codeblock></note></li>
+cf target -o myOrg -s mySpc</codeblock></li>
           </ol><b>To Push a GitHub Application to <keyword keyref="prodShort"/></b><ol
             id="push-github-app">
             <li><codeph>git clone</codeph> the application and ensure that the
