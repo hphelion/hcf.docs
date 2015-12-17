@@ -30,42 +30,58 @@
       <dl>
         <dlentry>
           <dt><xref href="#reference_cd3_bs3_rt/api" format="dita"><codeph>api</codeph></xref></dt>
-          <dd>Set <codeph><keyword keyref="adminUtilCLI"/></codeph> to use the specified <keyword
-              keyref="prodShort"/> configuration store for subsequent operations. If an
-                <codeph><varname>&lt;endpoint></varname></codeph> is not specified, the current
-            endpoint is displayed.</dd>
+          <dd>Manages the configuration store endpoint</dd>
         </dlentry>
         <dlentry>
           <dt><xref href="#reference_cd3_bs3_rt/config_get" format="dita"
               ><codeph>config</codeph></xref></dt>
-          <dd>Manipulate the configuration values of <keyword keyref="prodShort"/> components.</dd>
+          <dd>Manipulates the configuration values of <keyword keyref="prodShort"/> components</dd>
         </dlentry>
         <dlentry>
           <dt><codeph>help</codeph></dt>
-          <dd>Show a list of commands or help for one command.</dd>
+          <dd>Shows a list of commands or help for one command</dd>
         </dlentry>
         <dlentry>
           <dt><xref href="#reference_cd3_bs3_rt/status" format="dita"
             ><codeph>status</codeph></xref></dt>
-          <dd>Retrieve the status of a <keyword keyref="prodShort"/> cluster.</dd>
+          <dd>Shows  the status of each individual role in the <keyword keyref="prodShort"/>
+            cluster</dd>
         </dlentry>
       </dl>
     </section>
     <section>
-      <title>Command Usage Details and Examples</title>
+      <title>Command Usage Descriptions and Examples</title>
       <dl>
         <dlentry>
           <dt><codeph id="api">api <varname>[&lt;endpoint>]</varname></codeph></dt>
-          <dd>Example:<codeblock>$ <codeph><keyword keyref="adminUtilCLI"/></codeph> api http://hcf-consul-server.hcf:8501</codeblock></dd>
+          <dd>Sets <codeph><keyword keyref="adminUtilCLI"/></codeph> to use the specified <keyword
+              keyref="prodShort"/> configuration store for subsequent operations, for
+            example:<codeblock>$ <keyword keyref="adminUtilCLI"/> api http://hcf-consul-server.hcf:8501</codeblock>If
+            an <codeph><varname>&lt;endpoint></varname></codeph> is not specified, the current
+            endpoint is displayed.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><codeph>config del</codeph></dt>
+          <dd>Deletes a key-value configuration from the configuration store, for example:<codeblock>$ <keyword keyref="adminUtilCLI"/> config del nats.user</codeblock><dl>
+              <dlentry>
+                <dt><codeph>--role</codeph>, <codeph>-r</codeph></dt>
+                <dd>Deletes a specific <xref href="hcf-reference-roles.dita#cf_reference_roles"
+                      ><varname>&lt;role></varname></xref>'s configuration</dd>
+              </dlentry>
+              <dlentry>
+                <dt><codeph>--recursive</codeph></dt>
+                <dd>Deletes all the keys in the specified namespace</dd>
+              </dlentry>
+            </dl></dd>
         </dlentry>
         <dlentry>
           <dt><codeph id="config_get">config get</codeph>
             <codeph><varname>[options]</varname>
               <varname>&lt;key-path></varname></codeph></dt>
-          <dd>Look up the current and default values of a configuration. Example:<codeblock>$ <codeph><keyword keyref="adminUtilCLI"/></codeph> config get --json nats.user</codeblock><dl>
+          <dd>Looks up the current and default values of a configuration, for example:<codeblock>$ <keyword keyref="adminUtilCLI"/> config get --json nats.user</codeblock><dl>
               <dlentry>
                 <dt><codeph>--json</codeph>, <codeph>-j</codeph></dt>
-                <dd>Output key-value pairs in JSON format.</dd>
+                <dd>Outputs key-value pairs in JSON format</dd>
               </dlentry>
             </dl></dd>
         </dlentry>
@@ -74,19 +90,19 @@
             <codeph><varname>[options]</varname>
               <varname>&lt;key-path></varname>
               <varname>&lt;value></varname></codeph></dt>
-          <dd>Set <codeph><varname>&lt;key-path></varname></codeph> to
-            <codeph><varname>&lt;value></varname></codeph> in the configuration store. Examples:<codeblock>$ <codeph><keyword keyref="adminUtilCLI"/></codeph> config set -f key.name myValue.txt</codeblock><codeblock>$ echo "myValue" | <codeph><keyword keyref="adminUtilCLI"/></codeph> config set -f key.name -</codeblock><dl>
+          <dd>Sets <codeph><varname>&lt;key-path></varname></codeph> to
+                <codeph><varname>&lt;value></varname></codeph> in the configuration store, for example:<codeblock>$ <keyword keyref="adminUtilCLI"/> config set -f key.name myValue.txt</codeblock><codeblock>$ echo "myValue" | <keyword keyref="adminUtilCLI"/> config set -f key.name -</codeblock><dl>
               <dlentry>
                 <dt><codeph>--role</codeph>, <codeph>-r</codeph></dt>
-                <dd>Set a specific <xref href="hcf-reference-roles.dita#cf_reference_roles"
-                      ><varname>&lt;role></varname></xref>'s configuration.</dd>
+                <dd>Sets a specific <xref href="hcf-reference-roles.dita#cf_reference_roles"
+                      ><varname>&lt;role></varname></xref>'s configuration</dd>
               </dlentry>
               <dlentry>
                 <dt><codeph>--file</codeph>, <codeph>-f</codeph></dt>
-                <dd>Read the <codeph><varname>&lt;value></varname></codeph>.
-                      <codeph><varname>&lt;value></varname></codeph> becomes either a filename to
-                  read the value from or a dash (<codeph>-</codeph>) for
-                  <codeph>stdin</codeph>.</dd>
+                <dd>Reads the <codeph><varname>&lt;value></varname></codeph>
+                  <p><codeph><varname>&lt;value></varname></codeph> becomes either a filename to
+                    read the value from or a dash (<codeph>-</codeph>) for
+                    <codeph>stdin</codeph>.</p></dd>
               </dlentry>
             </dl></dd>
         </dlentry>
@@ -96,8 +112,8 @@
             <dl>
               <dlentry>
                 <dt><codeph>--all</codeph></dt>
-                <dd>Show the status of every individual process.
-                  Example:<codeblock>$ <codeph><keyword keyref="adminUtilCLI"/></codeph> status --all</codeblock></dd>
+                <dd>Shows the status of every individual process, for
+                  example:<codeblock>$ <keyword keyref="adminUtilCLI"/> status --all</codeblock></dd>
               </dlentry>
             </dl>
           </dd>
