@@ -78,7 +78,7 @@
           <dt><codeph id="config_get">config get</codeph>
             <codeph><varname>[options]</varname>
               <varname>&lt;key-path></varname></codeph></dt>
-          <dd>Looks up the current and default values of a configuration, for example:<codeblock>$ <keyword keyref="adminUtilCLI"/> config get --json nats.user</codeblock><dl>
+          <dd>Looks up the current and default values of a configuration, for example:<codeblock>$ <keyword keyref="adminUtilCLI"/> config get nats.user</codeblock><dl>
               <dlentry>
                 <dt><codeph>--json</codeph>, <codeph>-j</codeph></dt>
                 <dd>Outputs key-value pairs in JSON format</dd>
@@ -99,10 +99,10 @@
               </dlentry>
               <dlentry>
                 <dt><codeph>--file</codeph>, <codeph>-f</codeph></dt>
-                <dd>Reads the <codeph><varname>&lt;value></varname></codeph>
-                  <p><codeph><varname>&lt;value></varname></codeph> becomes either a filename to
-                    read the value from or a dash (<codeph>-</codeph>) for
-                    <codeph>stdin</codeph>.</p></dd>
+                <dd>Reads the <codeph><varname>&lt;value></varname></codeph> .
+                      <codeph><varname>&lt;value></varname></codeph> becomes either a filename to
+                  read the value from or a dash (<codeph>-</codeph>) for
+                  <codeph>stdin</codeph>.</dd>
               </dlentry>
             </dl></dd>
         </dlentry>
