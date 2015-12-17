@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_qlr_s3c_nt">
   <title><keyword keyref="prodLong"/>
-    <keyword keyref="prodVerLong"/> Technical Preview: Documentation</title>
+    <keyword keyref="prodVerShort"/> Technical Preview: Documentation</title>
   <titlealts><navtitle><keyword keyref="prodLong"/>
-      <keyword keyref="prodVerLong"/> TP</navtitle></titlealts>
+      <keyword keyref="prodVerShort"/> TP</navtitle></titlealts>
   <shortdesc/>
   <prolog>
     <metadata>
@@ -12,7 +12,7 @@
     </metadata>
   </prolog>
   <conbody>
-    <p><keyword keyref="prodLong"/> Technical Preview (TP) <keyword keyref="prodVerLong"/> is a
+    <p><keyword keyref="prodLong"/> Technical Preview (TP) <keyword keyref="prodVerShort"/> is a
       certified distribution of <xref href="https://www.cloudfoundry.org/" format="html"
         scope="external">Cloud Foundry</xref> (<xref
         href="https://github.com/cloudfoundry/cf-release/releases/tag/v217" format="html"

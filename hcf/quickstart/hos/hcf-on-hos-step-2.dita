@@ -24,7 +24,7 @@
               keyref="prodLong"/></b><p id="tools-hcf-download"><xref
               href="https://helion.hpwsportal.com/catalog.html#/Category/%7B%22categoryId%22%3A10604%7D/Show"
               format="html" scope="external"><keyword keyref="prodShort"/></xref>
-            <keyword keyref="prodVerLong"/> allows you to push application code to a server, to
+            <keyword keyref="prodVerShort"/> allows you to push application code to a server, to
             start and stop applications, and to perform other application management
             operations.</p><note id="tools-hcf-download-note"><keyword keyref="prodShort"/> can be
             deployed on Linux, Mac OS X, and Windows.</note><b id="tools-terraform">Terraform
