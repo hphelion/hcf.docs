@@ -16,20 +16,6 @@
          </keywords>
       </topicmeta>
    </keydef>
-   <keydef keys="pubCloudLong">
-      <topicmeta>
-         <keywords>
-            <keyword>HPE Helion Public Cloud</keyword>
-         </keywords>
-      </topicmeta>
-   </keydef>
-   <keydef keys="pubCloudShort">
-      <topicmeta>
-         <keywords>
-            <keyword>Helion Public Cloud</keyword>
-         </keywords>
-      </topicmeta>
-   </keydef>
    <keydef keys="opnStckLong">
       <topicmeta>
          <keywords>
@@ -61,14 +47,14 @@
    <keydef keys="prodVerShort">
       <topicmeta>
          <keywords>
-            <keyword>0.10.0</keyword>
+            <keyword>1.0</keyword>
          </keywords>
       </topicmeta>
    </keydef>
    <keydef keys="prodVerLong">
       <topicmeta>
          <keywords>
-            <keyword>0.10.0.16</keyword>
+            <keyword>1.0</keyword>
          </keywords>
       </topicmeta>
    </keydef>

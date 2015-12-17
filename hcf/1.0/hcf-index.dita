@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_qlr_s3c_nt">
   <title><keyword keyref="prodLong"/>
-    <keyword keyref="prodVerShort"/> Technical Preview: Documentation</title>
+    <keyword keyref="prodVerShort"/>: Documentation</title>
   <titlealts><navtitle><keyword keyref="prodLong"/>
-      <keyword keyref="prodVerShort"/> TP</navtitle></titlealts>
+      <keyword keyref="prodVerShort"/></navtitle></titlealts>
   <shortdesc/>
   <prolog>
     <metadata>
@@ -12,10 +12,10 @@
     </metadata>
   </prolog>
   <conbody>
-    <p><keyword keyref="prodLong"/> Technical Preview (TP) <keyword keyref="prodVerShort"/> is a
-      certified distribution of <xref href="https://www.cloudfoundry.org/" format="html"
-        scope="external">Cloud Foundry</xref> (<xref
-        href="https://github.com/cloudfoundry/cf-release/releases/tag/v217" format="html"
+    <p><keyword keyref="prodLong"/>
+      <keyword keyref="prodVerShort"/> is a certified distribution of <xref
+        href="https://www.cloudfoundry.org/" format="html" scope="external">Cloud Foundry</xref>
+        (<xref href="https://github.com/cloudfoundry/cf-release/releases/tag/v217" format="html"
         scope="external">cf-release v217</xref>). Instead of deploying virtual machines, <keyword
         keyref="prodShort"/> uses containers for bundling all major functions, for representing
       roles, and for providing simple update and upgrade workflows. <keyword keyref="prodShort"/>
@@ -39,20 +39,10 @@
               <li><xref href="quickstart/hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st"/></li>
               <li><xref href="quickstart/hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt"/></li>
             </ul></li>
-          <li><xref href="quickstart/hpc/hcf-on-hpc.dita#cfr_pubcloud_quickstart"/><ul
-              id="ul_im1_yn3_h5">
-              <li><xref href="quickstart/hpc/hcf-on-hpc-step-1.dita#concept_s2k_b35"/></li>
-              <li><xref href="quickstart/hpc/hcf-on-hpc-step-2.dita#concept_ikh_xgz"/></li>
-              <li><xref href="quickstart/hpc/hcf-on-hpc-step-3.dita#concept_kpg_fhz"/></li>
-              <li><xref href="quickstart/hpc/hcf-on-hpc-step-4.dita#concept_pqc_jhz"/></li>
-              <li><xref href="quickstart/hpc/hcf-on-hpc-step-5.dita#concept_cw2_thz"/></li>
-              <li><xref href="quickstart/hpc/hcf-on-hpc-step-6.dita#concept_m3k_bth"/></li>
-            </ul></li>
         </ul><ul id="ul_sm4_zn3_h5">
           <li><xref href="reference/hcf-reference.dita#cfr_reference"/><ul id="ul_tm4_zn3_h5">
               <li><xref href="reference/hcf-reference-openrc-sh.dita#hcf-reference-openrc-sh"/></li>
               <li><xref href="reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt"/></li>
-              <li><xref href="reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc"/></li>
               <li><xref href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/></li>
               <li><xref href="reference/hcf-reference-roles.dita#cf_reference_roles"/></li>
             </ul></li>
