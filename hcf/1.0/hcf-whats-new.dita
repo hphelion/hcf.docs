@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uvz_1cx_tt">
+ <title>What's New</title>
+ <shortdesc></shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="author" content="Michael Khmelnitsky"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <section>
+   <title><!--Updates-->Features and Functionality</title>
+   <p>The following features and functionality have been added to <keyword keyref="prodLong"/>:</p>
+   <dl>
+    <dlentry>
+     <dt><codeph>terraform</codeph></dt>
+     <dd>If you have worked with Cloud Foundry before, <keyword keyref="prodShort"/> will allow you
+      to work in a familiar environment where instead of BOSH, <keyword keyref="prodShort"/> uses
+        <codeph><xref href="https://terraform.io/" format="html" scope="external"
+       >terraform</xref></codeph>, a service management command-line tool.</dd>
+    </dlentry>
+    <dlentry>
+     <dt><codeph><keyword keyref="adminUtilCLI"/></codeph></dt>
+     <dd>If you have worked with <xref
+       href="http://www8.hp.com/us/en/cloud/helion-devplatform-overview.html" format="html"
+       scope="external">HPE Helion Stackato</xref> or with the <xref
+       href="http://dev.hpcloud.com/hdp/" format="html" scope="external">HPE Helion Development
+       Platform</xref> before, <keyword keyref="prodShort"/> will allow you to work with <xref
+       href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"><codeph><keyword
+         keyref="adminUtilCLI"/></codeph></xref>, a new command-line administration utility that
+      shares some functionality with <codeph>kato</codeph>. </dd>
+    </dlentry>
+   </dl>
+  </section>
+ </conbody>
+</concept>

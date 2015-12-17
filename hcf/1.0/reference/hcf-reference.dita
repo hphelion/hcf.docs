@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="cfr_reference">
+ <title>Reference</title>
+ <shortdesc>This section contains reference topics on OpenStack and <codeph>terraform</codeph>
+    variables, <codeph><keyword keyref="adminUtilCLI"/></codeph> commands, and <keyword
+      keyref="prodLong"/> roles.</shortdesc>
+ <conbody>
+  <p></p>
+ </conbody>
+</concept>

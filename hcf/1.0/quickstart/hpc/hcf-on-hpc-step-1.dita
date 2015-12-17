@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_s2k_b35">
+ <title>Quick Start Step 1: <keyword keyref="quickStartHPcloudStep1"/></title>
+ <shortdesc>Deploying an <keyword keyref="prodLong"/> to <keyword keyref="pubCloudLong"/> is the
+  fastest and easiest way to evaluate and to begin working with <keyword keyref="prodShort"/>. This
+  process involves downloading and installing the necessary tools, configuring your sandbox
+  environment, and deploying <keyword keyref="prodShort"/>.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="author" content="Michael Khmelnitsky"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <simpletable>
+   <strow>
+    <stentry>1. <b><keyword keyref="quickStartHPcloudStep1"/></b>
+     <p>2. <xref href="hcf-on-hpc-step-2.dita#concept_ikh_xgz" id="quickStartHPcloudStep2_"><keyword
+        keyref="quickStartHPcloudStep2"/></xref></p><p>3. <xref
+       href="hcf-on-hpc-step-3.dita#concept_kpg_fhz" id="quickStartHPcloudStep3_"><keyword
+        keyref="quickStartHPcloudStep3"/></xref></p><p>4. <xref
+       href="hcf-on-hpc-step-4.dita#concept_pqc_jhz" id="quickStartHPcloudStep4_"><keyword
+        keyref="quickStartHPcloudStep4"/></xref></p><p>5. <xref
+       href="hcf-on-hpc-step-5.dita#concept_cw2_thz" id="quickStartHPcloudStep5_"><keyword
+        keyref="quickStartHPcloudStep5"/></xref></p>6. <xref
+         href="hcf-on-hpc-step-6.dita#concept_m3k_bth" id="quickStartHPcloudStep6_"><keyword keyref="quickStartHPcloudStep6"
+     /></xref></stentry>
+    <stentry><b>Prerequisites</b><p>An <xref href="https://horizon.hpcloud.com/" format="html"
+       scope="external"><keyword keyref="pubCloudLong"/></xref> account with the following
+      specifications for a minimal installation with a single Droplet Execution Agent (DEA):<ul
+       id="ul_sdz_zpl_35">
+       <li>12GB available RAM</li>
+       <li>Two available instances</li>
+       <li>One available security group</li>
+       <li>One available floating IP</li>
+       <li>One 40 GB volume</li>
+      </ul></p><note type="tip">Keep your username and password handy. You will need them to create
+      a sandbox environment.</note>
+     <xref href="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st">
+      <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
+     </xref>
+    </stentry>
+   </strow>
+  </simpletable>
+ </conbody>
+</concept>

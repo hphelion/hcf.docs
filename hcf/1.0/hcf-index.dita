@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qlr_s3c_nt">
+  <title><keyword keyref="prodLong"/>
+    <keyword keyref="prodVerShort"/> Technical Preview: Documentation</title>
+  <titlealts><navtitle><keyword keyref="prodLong"/>
+      <keyword keyref="prodVerShort"/> TP</navtitle></titlealts>
+  <shortdesc/>
+  <prolog>
+    <metadata>
+      <othermeta name="author" content="Michael Khmelnitsky"/>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p><keyword keyref="prodLong"/> Technical Preview (TP) <keyword keyref="prodVerShort"/> is a
+      certified distribution of <xref href="https://www.cloudfoundry.org/" format="html"
+        scope="external">Cloud Foundry</xref> (<xref
+        href="https://github.com/cloudfoundry/cf-release/releases/tag/v217" format="html"
+        scope="external">cf-release v217</xref>). Instead of deploying virtual machines, <keyword
+        keyref="prodShort"/> uses containers for bundling all major functions, for representing
+      roles, and for providing simple update and upgrade workflows. <keyword keyref="prodShort"/>
+      uses <xref href="https://www.consul.io/" format="html" scope="external">Consul</xref> for
+      centralized configuration storage that runs on each of its nodes.</p>
+    <note>For detailed descriptions of the components of <keyword keyref="prodLong"/>, see <xref
+        href="reference/hcf-reference-roles.dita#cf_reference_roles"><keyword keyref="prodShort"/>
+        Roles</xref>. </note>
+    <p>The following sections will help you get started with exploring <keyword keyref="prodShort"/>
+      and pushing your first apps.</p>
+    <ul id="ul_nlv_fct_5t">
+      <li><xref href="hcf-whats-new.dita#concept_uvz_1cx_tt"/></li>
+      <li><xref href="hcf-release-notes.dita#cfr_relnotes"/></li>
+      <li><xref href="hcf-agreements.dita#cfr_tp_licensing"/></li>
+      <li><xref href="quickstart/hcf-quickstart.dita#hcf-quickstart"/><ul id="ul_qyw_xn3_h5">
+          <li><xref href="quickstart/hos/hcf-on-hos.dita#cfr_hos_quickstart"/><ul id="ul_n4b_zn3_h5">
+              <li><xref href="quickstart/hos/hcf-on-hos-step-1.dita#concept_s2k_b35_st"/></li>
+              <li><xref href="quickstart/hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st"/></li>
+              <li><xref href="quickstart/hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st"/></li>
+              <li><xref href="quickstart/hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st"/></li>
+              <li><xref href="quickstart/hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st"/></li>
+              <li><xref href="quickstart/hos/hcf-on-hos-step-6.dita#concept_m3k_bth_tt"/></li>
+            </ul></li>
+          <li><xref href="quickstart/hpc/hcf-on-hpc.dita#cfr_pubcloud_quickstart"/><ul
+              id="ul_im1_yn3_h5">
+              <li><xref href="quickstart/hpc/hcf-on-hpc-step-1.dita#concept_s2k_b35"/></li>
+              <li><xref href="quickstart/hpc/hcf-on-hpc-step-2.dita#concept_ikh_xgz"/></li>
+              <li><xref href="quickstart/hpc/hcf-on-hpc-step-3.dita#concept_kpg_fhz"/></li>
+              <li><xref href="quickstart/hpc/hcf-on-hpc-step-4.dita#concept_pqc_jhz"/></li>
+              <li><xref href="quickstart/hpc/hcf-on-hpc-step-5.dita#concept_cw2_thz"/></li>
+              <li><xref href="quickstart/hpc/hcf-on-hpc-step-6.dita#concept_m3k_bth"/></li>
+            </ul></li>
+        </ul><ul id="ul_sm4_zn3_h5">
+          <li><xref href="reference/hcf-reference.dita#cfr_reference"/><ul id="ul_tm4_zn3_h5">
+              <li><xref href="reference/hcf-reference-openrc-sh.dita#hcf-reference-openrc-sh"/></li>
+              <li><xref href="reference/hcf-reference-tfvars-hos.dita#reference_phl_shc_rt"/></li>
+              <li><xref href="reference/hcf-reference-tfvars-hpc.dita#reference_phl_shc"/></li>
+              <li><xref href="reference/hcf-reference-gato.dita#reference_cd3_bs3_rt"/></li>
+              <li><xref href="reference/hcf-reference-roles.dita#cf_reference_roles"/></li>
+            </ul></li>
+        </ul></li>
+    </ul>
+  </conbody>
+</concept>

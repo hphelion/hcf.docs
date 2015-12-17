@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_kpg_fhz">
+ <title>Quick Start Step 3: <keyword keyref="quickStartHPcloudStep3"/></title>
+ <shortdesc>During this step you will log into <keyword keyref="pubCloudLong"/> and use the web
+    console to create a sandbox environment.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="author" content="Michael Khmelnitsky"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <simpletable>
+   <strow>
+    <stentry>1. <xref conref="hcf-on-hpc-step-2.dita#concept_ikh_xgz/quickStartHPcloudStep1_"/><p>2.
+              <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep2_"/></p><p>3.
+                <b><keyword keyref="quickStartHPcloudStep3" id="quickStartHPcloudStep3"
+            /></b></p><p>4. <xref
+              conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep4_"/></p><p>5. <xref
+              conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep5_"/></p>6. <xref
+            conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep6_"/></stentry>
+    <stentry>
+          <b>To Create a Sandbox Environment</b><ol id="ol_ur4_yq1_tt">
+            <li>Log into <xref href="https://horizon.hpcloud.com/" format="html" scope="external"
+                  ><keyword keyref="pubCloudShort"/></xref>.</li>
+            <li id="create_a_network">Create a network.<ol id="ol_xvb_qyp_tt">
+                <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-a"/>
+                <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-b"/>
+                <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-c"/>
+                <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-d"/>
+                <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-2-e"/>
+              </ol></li>
+            <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-3"/>
+            <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-4"/>
+            <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-5"/>
+            <li>Activate the Compute service required for creating clusters.<ol id="ol_kpw_4sp_tt">
+                <li>Click <menucascade>
+                    <uicontrol>Manage Services</uicontrol>
+                    <uicontrol>Activate Services</uicontrol>
+                  </menucascade>.</li>
+                <li>In the <uicontrol>US West</uicontrol> section, click
+                    <uicontrol>Activate</uicontrol> in the <uicontrol>Actions</uicontrol> column of
+                  the <uicontrol>Compute</uicontrol> row. </li>
+              </ol><note>Due to load balancing, your account may be provisioned to use US East
+                instead of US West. If <uicontrol>Launch Instance</uicontrol> is disabled in the <menucascade>
+                  <uicontrol>Project</uicontrol>
+                  <uicontrol>Computer</uicontrol>
+                  <uicontrol>Instances</uicontrol>
+                </menucascade> pane, try the other region.</note></li>
+            <li conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/hos-6"/>
+          </ol><b id="download_config_file">To Download the Configuration File and Key Pair</b><ol
+            conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/download-confile-keypair"
+            id="ol_j23_sd4_35">
+            <li/>
+          </ol><b id="authenticate-openrc">To Load Variables from Your <codeph>openrc.sh</codeph>
+            File</b><p conref="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st/load-vars"/>
+          <xref href="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st">
+            <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
+          </xref>
+        </stentry>
+   </strow>
+  </simpletable>
+ </conbody>
+</concept>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pqc_jhz">
+ <title>Quick Start Step 4: <keyword keyref="quickStartHPcloudStep4"/></title>
+ <shortdesc>During this step you will use <codeph>terraform</codeph> to create an <keyword
+      keyref="prodLong"/> cluster on <keyword keyref="pubCloudLong"/>.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="author" content="Michael Khmelnitsky"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <simpletable>
+   <strow>
+    <stentry>1. <xref conref="hcf-on-hpc-step-2.dita#concept_ikh_xgz/quickStartHPcloudStep1_"/><p>2.
+              <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep2_"/></p><p>3.
+              <xref conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep3_"/></p><p>4.
+                <b><keyword keyref="quickStartHPcloudStep4" id="quickStartHPcloudStep4"
+            /></b></p><p>5. <xref
+              conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep5_"/></p>6. <xref
+            conref="hcf-on-hpc-step-1.dita#concept_s2k_b35/quickStartHPcloudStep6_"/></stentry>
+    <stentry><b>To Deploy <keyword keyref="prodShort"/></b><ol id="ol_p2k_vx1_tt">
+            <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d1"/>
+            <li>Navigate to the <codeph>/direct_internet</codeph> directory.</li>
+            <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d3"/>
+            <li conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/hos-d4"/>
+            <li id="run_terraform_command">Apply the <codeph>terraform</codeph> variables, for
+                example:<codeblock>terraform apply -var-file=myVars.tfvars</codeblock><note>You may
+                receive the error message <msgph>Can not find requested image</msgph> if the various
+                settings of your sandbox environment are not configured consistently on US East or
+                US West.</note><note
+                conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/nocolor"/></li>
+          </ol><p conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/postcreation"
+            /><b>Exploring the <keyword keyref="prodShort"/> Cluster</b><p
+            conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/exploring-hcf"/><ul
+            conref="../hos/hcf-on-hos-step-4.dita#concept_pqc_jhz_st/exploring-view-nodes-secgroups"
+            id="ul_jqz_ng4_35">
+            <li/>
+          </ul>
+          <xref href="../hos/hcf-on-hos-step-5.dita#concept_cw2_thz_st">
+            <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
+          </xref>
+        </stentry>
+   </strow>
+  </simpletable>
+ </conbody>
+</concept>
