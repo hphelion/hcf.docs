@@ -28,7 +28,7 @@
             conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-terraform-download"/><b
             conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-cf"/><p
             conref="../hos/hcf-on-hos-step-2.dita#concept_ikh_xgz_st/tools-cf-download"/>
-          <xref href="../hos/hcf-on-hos-step-3.dita#concept_kpg_fhz_st">
+          <xref href="hcf-on-hpc-step-3.dita#concept_kpg_fhz">
             <image href="../../media/NextButton.png" id="image_gqc_sgp_js" placement="break"/>
           </xref>
         </stentry>
