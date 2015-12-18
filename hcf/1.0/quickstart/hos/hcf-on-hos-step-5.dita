@@ -41,7 +41,7 @@
                   <row>
                     <entry>You can push the same Cloud Foundry-native application written in various
                       programming languages to <keyword keyref="prodShort"/>.<p>The following
-                        application matches ping-ping players with each other:</p><ul
+                        application matches ping-pong players with each other:</p><ul
                         id="ul_sty_3zn_35">
                         <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_go"
                             format="html" scope="external">pong_matcher_go</xref> (Go)</li>
