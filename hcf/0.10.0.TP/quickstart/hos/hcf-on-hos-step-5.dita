@@ -53,9 +53,10 @@
                               format="html" scope="external">node-env</xref> (Node.js)</li>
                           <li><xref href="https://github.com/HelionDevPlatform/phpinfo"
                               format="html" scope="external">phpinfo</xref> (PHP)</li>
-                        </ul></p><p>The following starter applications demonstrate application
-                          design:<note>Use the <codeph>HCF</codeph> branches of these
-                          applications:<codeblock>git clone -b HCF git@github.com:HelionDevPlatform/<varname>&lt;myApp></varname>.git</codeblock></note></p><ul
+                        </ul></p><p>The following starter applications demonstrate application design:<note>
+                          <p>Use the <codeph>HCF</codeph> branches of these applications:</p>
+                          <codeblock>git clone -b HCF git@github.com:HelionDevPlatform/<varname>&lt;myApp></varname>.git</codeblock>
+                        </note></p><ul
                         id="ul_bfs_xzn_35">
                         <li><xref href="https://github.com/HelionDevPlatform/java-starter-app"
                             format="html" scope="external">java-starter-app</xref> (Java)</li>

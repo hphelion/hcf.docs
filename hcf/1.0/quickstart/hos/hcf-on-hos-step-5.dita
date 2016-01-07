@@ -27,7 +27,7 @@
           conref="hcf-on-hos-step-1.dita#concept_s2k_b35_st/quickStartHOSstep6_"/></stentry>
      <stentry><b>Sample Applications</b><p>The following sample applications will get your started
             with the <codeph>cf push</codeph> workflow:</p><p id="sample-apps">
-            <table frame="all" rowsep="1" colsep="1">
+            <table frame="all" rowsep="1" colsep="1" id="table_apt_gzw_45">
               <tgroup cols="2">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -39,23 +39,12 @@
                 </thead>
                 <tbody>
                   <row>
-                    <entry>You can push the same Cloud Foundry-native application written in various
-                      programming languages to <keyword keyref="prodShort"/>.<p>The following
-                        application matches ping-pong players with each other:</p><ul
-                        id="ul_sty_3zn_35">
-                        <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_go"
-                            format="html" scope="external">pong_matcher_go</xref> (Go)</li>
-                        <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_sails"
-                            format="html" scope="external">pong_matcher_sails</xref>
-                          (JavaScript)</li>
-                        <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_slim"
-                            format="html" scope="external">pong_matcher_slim</xref> (PHP)</li>
-                        <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_django"
-                            format="html" scope="external">pong_matcher_django</xref> (Python)</li>
-                        <li><xref href="https://github.com/cloudfoundry-samples/pong_matcher_ruby"
-                            format="html" scope="external">pong_matcher_ruby</xref> (Ruby)</li>
-                      </ul></entry>
-                    <entry>You can also push various non-Cloud Foundry applications to <keyword
+                    <entry>You can push a variety of Cloud Foundry-native application written in
+                      different programming languages to <keyword keyref="prodShort"/>.<p>The
+                        official Cloud Foundry sample applications are <xref
+                          href="https://github.com/cloudfoundry-samples" format="html"
+                          scope="external">available on GitHub</xref>.</p></entry>
+                    <entry>You can also push Helion Development Platform applications to <keyword
                         keyref="prodShort"/>. <p>The following applications output environment
                           variables:<ul id="ul_bmz_1js_35">
                           <li><xref href="https://github.com/HelionDevPlatform/go-env" format="html"
@@ -64,8 +53,11 @@
                               format="html" scope="external">node-env</xref> (Node.js)</li>
                           <li><xref href="https://github.com/HelionDevPlatform/phpinfo"
                               format="html" scope="external">phpinfo</xref> (PHP)</li>
-                        </ul></p><p>The following starter applications demonstrate application
-                        design:</p><ul id="ul_bfs_xzn_35">
+                        </ul></p><p>The following starter applications demonstrate application design:<note>
+                          <p>Use the <codeph>HCF</codeph> branches of these applications:</p>
+                          <codeblock>git clone -b HCF git@github.com:HelionDevPlatform/<varname>&lt;myApp></varname>.git</codeblock>
+                        </note></p><ul
+                        id="ul_bfs_xzn_35">
                         <li><xref href="https://github.com/HelionDevPlatform/java-starter-app"
                             format="html" scope="external">java-starter-app</xref> (Java)</li>
                         <li><xref href="https://github.com/HelionDevPlatform/python-starter-app"
