@@ -42,7 +42,14 @@
           <row>
             <entry><codeph>cluster_admin_password</codeph></entry>
             <entry>The initial password for your cluster</entry>
-            <entry/>
+            <entry>
+              <note type="important">Passwords may contain only alphanumeric characters as well as
+                hyphens (<codeph>-</codeph>), underscores (<codeph>_</codeph>), equals signs
+                  (<codeph>=</codeph>), commas (<codeph>,</codeph>) and (<codeph>.</codeph>)
+                periods. Passwords may not contain single quotation marks (<codeph>'</codeph>),
+                double quotation marks (<codeph>"</codeph>) or backslashes
+                (<codeph>\</codeph>).</note>
+            </entry>
           </row>
           <row>
             <entry><codeph>dea_count</codeph></entry>
