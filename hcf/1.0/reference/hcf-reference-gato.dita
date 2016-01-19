@@ -85,7 +85,7 @@
               </dlentry>
               <dlentry>
                 <dt><codeph>--pretty</codeph>, <codeph>-p</codeph></dt>
-                <dd>Output key-value pairs in pretty (indented) JSON format.</dd>
+                <dd>Outputs key-value pairs in pretty (indented) JSON format.</dd>
               </dlentry>
             </dl></dd>
         </dlentry>

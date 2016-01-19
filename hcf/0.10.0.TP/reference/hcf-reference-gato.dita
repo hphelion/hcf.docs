@@ -67,10 +67,6 @@
                 <dt><codeph>--json</codeph>, <codeph>-j</codeph></dt>
                 <dd>Output key-value pairs in JSON format.</dd>
               </dlentry>
-              <dlentry>
-                <dt><codeph>--pretty</codeph>, <codeph>-p</codeph></dt>
-                <dd>Output key-value pairs in pretty (indented) JSON format.</dd>
-              </dlentry>
             </dl></dd>
         </dlentry>
         <dlentry>
