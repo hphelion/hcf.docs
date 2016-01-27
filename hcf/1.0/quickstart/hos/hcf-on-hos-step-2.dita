@@ -34,7 +34,11 @@
             clusters.</p><b id="tools-cf">Cloud Foundry CLI</b><p id="tools-cf-download"><xref
               href="https://github.com/cloudfoundry/cli#downloads" format="html" scope="external"
                 ><codeph>cf</codeph> CLI</xref> allows you to deploy and manage your
-            applications.</p><b>(Optional) OpenStack CLIs</b><p>You can troubleshoot your tenant's
+            applications.</p><b>Diego Plugin for Cloud Foundry CLI</b><p><xref
+              href="https://github.com/cloudfoundry-incubator/diego-enabler" format="html"
+              scope="external">Diego-Enabler</xref> enables support for Diego, the new runtime
+            architecture for Cloud Foundry that replaces the Droplet Execution Agents (DEAs) and the
+            Health Manager.</p><b>(Optional) OpenStack CLIs</b><p>You can troubleshoot your tenant's
             networking using the <codeph>neutron</codeph> CLI and your key pairs and base images
             using the <codeph>nova</codeph> CLIs . For more information on installing these tools,
             see the <xref
