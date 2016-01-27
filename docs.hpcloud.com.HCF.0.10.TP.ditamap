@@ -17,19 +17,10 @@
             <topicref href="hcf/quickstart/hos/hcf-on-hos-step-5.dita"/>
             <topicref href="hcf/quickstart/hos/hcf-on-hos-step-6.dita"/>
          </topicref>
-         <topicref href="hcf/quickstart/hpc/hcf-on-hpc.dita">
-            <topicref href="hcf/quickstart/hpc/hcf-on-hpc-step-1.dita"/>
-            <topicref href="hcf/quickstart/hpc/hcf-on-hpc-step-2.dita"/>
-            <topicref href="hcf/quickstart/hpc/hcf-on-hpc-step-3.dita"/>
-            <topicref href="hcf/quickstart/hpc/hcf-on-hpc-step-4.dita"/>
-            <topicref href="hcf/quickstart/hpc/hcf-on-hpc-step-5.dita"/>
-            <topicref href="hcf/quickstart/hpc/hcf-on-hpc-step-6.dita"/>
-         </topicref>
       </topicref>
       <topicref href="hcf/reference/hcf-reference.dita" otherprops="reference">
          <topicref href="hcf/reference/hcf-reference-openrc-sh.dita"/>
          <topicref href="hcf/reference/hcf-reference-tfvars-hos.dita"/>
-         <topicref href="hcf/reference/hcf-reference-tfvars-hpc.dita"/>
          <topicref href="hcf/reference/hcf-reference-gato.dita"/>
          <topicref href="hcf/reference/hcf-reference-roles.dita"/>
       </topicref>    
