@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "../dtd/map.dtd">
 <map>
    <title>HPE Helion Cloud Foundry Variables</title>
-   <!--PDFTITLE "DO NOT GENERATE"-->
    <keydef keys="corpLong">
       <topicmeta>
          <keywords>

@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "../dtd/map.dtd">
 <map>
    <title>HP Helion Cloud Foundry</title>
-   <!--PDFTITLE "DO NOT GENERATE"-->
    <mapref href="hcf/1.0/hcf-variables.ditamap"/>
    <topicref href="hcf/1.0/hcf-index.dita" otherprops="hcf">
       <topicref href="hcf/1.0/hcf-whats-new.dita"/>
